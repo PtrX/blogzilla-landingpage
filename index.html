@@ -589,6 +589,95 @@
   }
   .pull .attr{font-family:'Press Start 2P',monospace;font-size:10px;color:var(--violet-bright);margin-top:20px;letter-spacing:.2em}
 
+  /* ===== merch ===== */
+  .merch-section{
+    background:
+      radial-gradient(ellipse 1000px 400px at 50% 0%, rgba(255,122,26,.08), transparent 70%),
+      linear-gradient(180deg, transparent, rgba(168,85,247,.04), transparent);
+    position:relative;
+  }
+  .merch-banner{
+    display:inline-flex;align-items:center;gap:14px;
+    font-family:'Press Start 2P',monospace;font-size:10px;letter-spacing:.2em;
+    color:var(--ember);
+    background:rgba(255,122,26,.08);
+    border:1px solid rgba(255,122,26,.3);
+    padding:10px 18px;margin-bottom:24px;
+  }
+  .merch-pulse{
+    background:var(--ember);color:#0a0612;padding:4px 8px;font-weight:bold;
+    animation:pulse 1.6s ease-in-out infinite;
+  }
+  @keyframes pulse{
+    0%,100%{box-shadow:0 0 0 0 rgba(255,122,26,.7);transform:scale(1)}
+    50%{box-shadow:0 0 0 8px rgba(255,122,26,0);transform:scale(1.04)}
+  }
+  .merch-frame{
+    position:relative;margin-top:48px;
+    border:1px solid var(--line-strong);
+    background:#0a0612;
+    overflow:hidden;
+    box-shadow:0 24px 60px -20px rgba(168,85,247,.4), 0 0 0 1px rgba(168,85,247,.1);
+  }
+  .merch-frame img{
+    width:100%;height:auto;display:block;
+    position:relative;z-index:1;
+  }
+  .merch-glow{
+    position:absolute;inset:0;pointer-events:none;z-index:2;
+    background:radial-gradient(ellipse 60% 80% at 50% 50%, transparent 50%, rgba(10,6,18,.4));
+  }
+  .merch-grid{
+    list-style:none;padding:0;margin:48px 0 0;
+    display:grid;grid-template-columns:repeat(3,1fr);gap:18px;
+  }
+  @media(max-width:880px){.merch-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:540px){.merch-grid{grid-template-columns:1fr}}
+  .merch-grid li{
+    background:linear-gradient(180deg,rgba(168,85,247,.06),transparent);
+    border:1px solid var(--line);
+    padding:24px;
+    position:relative;
+    transition:transform .2s,border-color .2s;
+  }
+  .merch-grid li:hover{transform:translate(-3px,-3px);border-color:var(--violet)}
+  .merch-tag{
+    font-family:'Press Start 2P',monospace;font-size:8px;
+    color:var(--ember);letter-spacing:.15em;
+    margin-bottom:10px;display:block;
+  }
+  .merch-grid h4{
+    font-family:'Bungee',sans-serif;font-size:18px;margin:0 0 8px;letter-spacing:.04em;
+  }
+  .merch-grid p{
+    color:var(--ink-dim);font-size:14px;margin:0;line-height:1.55;
+  }
+  .merch-cta{
+    margin-top:48px;padding:36px;
+    border:1px solid var(--line-strong);
+    background:linear-gradient(135deg,rgba(255,122,26,.06),rgba(168,85,247,.06));
+    text-align:center;
+  }
+  .merch-cta p{margin:0 0 18px;color:var(--ink-dim);font-size:15px}
+  .merch-form{
+    display:flex;gap:10px;max-width:480px;margin:0 auto;flex-wrap:wrap;justify-content:center;
+  }
+  .merch-form input{
+    flex:1;min-width:200px;padding:14px 16px;
+    background:rgba(10,6,18,.6);border:1px solid var(--line-strong);
+    color:var(--ink);font-family:'Inter',sans-serif;font-size:15px;
+    outline:none;transition:border-color .2s;
+  }
+  .merch-form input:focus{border-color:var(--ember)}
+  .merch-form button{
+    padding:14px 22px;
+    background:var(--ember);color:#0a0612;
+    border:none;cursor:pointer;
+    font-family:'Press Start 2P',monospace;font-size:10px;letter-spacing:.15em;
+    transition:transform .15s, background .15s;
+  }
+  .merch-form button:hover{background:var(--ember-soft);transform:translate(-2px,-2px);box-shadow:3px 3px 0 var(--violet-deep)}
+
   /* ===== social ===== */
   .socials{
     display:grid;grid-template-columns:repeat(4,1fr);gap:14px;
@@ -667,6 +756,7 @@
       <a href="#characters">Charaktere</a>
       <a href="#watch">Video</a>
       <a href="#audiobook">Hörbuch</a>
+      <a href="#merch">Merch</a>
       <a href="#social">Social</a>
     </div>
     <a class="nav-cta" href="#watch">▶ Jetzt ansehen</a>
@@ -970,12 +1060,74 @@
   </div>
 </section>
 
-<!-- ===== SOCIAL ===== -->
+<!-- ===== MERCH ===== -->
+<section id="merch" class="section-pad merch-section">
+  <div class="container">
+    <div class="merch-banner reveal">
+      <span class="merch-pulse">SOON</span>
+      <span>// COMING 2026</span>
+    </div>
+
+    <div class="section-head reveal">
+      <div>
+        <div class="section-kicker" style="color:var(--ember)">// 05 · BAUEN. STAUNEN. TRAGEN.</div>
+        <h2 class="section-title">Die Blockzilla<br/>Merch‑Linie.</h2>
+      </div>
+      <p class="section-lede">Plüsch‑Blockzilla mit leuchtendem Bedrock‑Herz. T‑Shirts, Hoodies, Caps — sogar ein Bauset für die City‑Attack‑Szene. Bald in deinem Kinderzimmer.</p>
+    </div>
+
+    <div class="merch-frame reveal">
+      <img src="assets/merch_lineup.png" alt="Blockzilla Merch‑Linie: T-Shirts, Hoodies, Plüschtiere, Bausets, Caps und mehr" />
+      <div class="merch-glow"></div>
+    </div>
+
+    <ul class="merch-grid reveal">
+      <li>
+        <span class="merch-tag">APPAREL</span>
+        <h4>T‑Shirts &amp; Hoodies</h4>
+        <p>Pixel‑Blockzilla, Team‑Edition für die ganze Familie, Mädchen‑Hoodie mit Elisaweta. Bedrock‑Herz glüht — auf Stoff.</p>
+      </li>
+      <li>
+        <span class="merch-tag">PLÜSCH</span>
+        <h4>Plüsch‑Blockzilla</h4>
+        <p>Mit ausklappbaren Flügeln und LED‑Herz das wirklich pulsiert. Ab 3 Jahren — auch Elisaweta‑zertifiziert.</p>
+      </li>
+      <li>
+        <span class="merch-tag">BAUSET</span>
+        <h4>City Attack &amp; Monster Battle</h4>
+        <p>Bau die Szene aus der Folge nach. Inkl. Mini‑Figuren von Peter, Eduard und Blockzilla. 8+. 724 Teile.</p>
+      </li>
+      <li>
+        <span class="merch-tag">FIGUREN</span>
+        <h4>Sammelfiguren</h4>
+        <p>Action‑Figuren in der Box: Blockzilla, Steve, Peter, Eduard. Sticker‑Set + Schlüsselanhänger inklusive.</p>
+      </li>
+      <li>
+        <span class="merch-tag">ACCESSORIES</span>
+        <h4>Caps, Beanies, Tassen</h4>
+        <p>Bedrock‑schwarz mit Pixel‑Stick. Tasse mit „Bauen. Staunen. Blockzilla." — heißt jeden Morgen Hallo.</p>
+      </li>
+      <li>
+        <span class="merch-tag">SCHULE</span>
+        <h4>Rucksack &amp; Stickerset</h4>
+        <p>Eduard‑blauer Rucksack für den ersten Schultag. Stickerset, das jedes Heft zur Bedrock‑Zone macht.</p>
+      </li>
+    </ul>
+
+    <div class="merch-cta reveal">
+      <p>Trag dich für die Newsletter‑Liste ein — du erfährst als Erste/r, wann der Shop online geht.</p>
+      <form class="merch-form" onsubmit="event.preventDefault();this.querySelector('button').textContent='✓ MERCH-LISTE'">
+        <input type="email" placeholder="deine@email.com" required />
+        <button type="submit">AUF DIE LISTE</button>
+      </form>
+    </div>
+  </div>
+</section>
 <section id="social" class="section-pad">
   <div class="container">
     <div class="section-head reveal">
       <div>
-        <div class="section-kicker">// 05 · Bleib dabei</div>
+        <div class="section-kicker">// 06 · Bleib dabei</div>
         <h2 class="section-title">Bleibt dran.<br/>Folge 03 ist schon im Bau.</h2>
       </div>
       <p class="section-lede">Behind‑the‑Scenes, neue Kapitel, kleine Rätsel — und der erste Hinweis darauf, was als Nächstes kommt.</p>
