@@ -6,7 +6,7 @@ Statische Promo‑Webseite für **Blockzilla II — Die Rückkehr** mit Trailer,
 
 ```
 .
-├── Blockzilla 2 Promo.html    # Hauptseite (alles in einer Datei: HTML + CSS + JS)
+├── index.html                 # Hauptseite (alles in einer Datei: HTML + CSS + JS)
 ├── karaoke.js                 # Hörbuch‑Player mit synchroner Text‑Anzeige
 └── assets/
     ├── poster_9x16.png        # Hero‑Poster + Hörbuch‑Cover
@@ -24,7 +24,7 @@ Statische Promo‑Webseite für **Blockzilla II — Die Rückkehr** mit Trailer,
 
 ## Lokal testen
 
-Doppelklick auf `Blockzilla 2 Promo.html` öffnet die Seite im Browser.
+Doppelklick auf `index.html` öffnet die Seite im Browser.
 
 > **Hinweis:** Manche Browser blockieren auf `file://` das automatische Laden der Audio‑JSONs (CORS) und Audio‑Autoplay mit Ton. Für ein realistisches Test‑Erlebnis lokal einen kleinen Webserver starten:
 >
@@ -32,7 +32,7 @@ Doppelklick auf `Blockzilla 2 Promo.html` öffnet die Seite im Browser.
 > # Python 3
 > cd Blockzilla_2_Promo_Export
 > python3 -m http.server 8000
-> # → http://localhost:8000/Blockzilla%202%20Promo.html
+> # → http://localhost:8000/
 > ```
 
 ## Deployen
@@ -47,7 +47,7 @@ Es gibt keinen Build‑Step. Schriften (Bungee, Press Start 2P, Inter) werden vo
 
 ## Externe Links — TODO
 
-Aktuell sind folgende Links Platzhalter (`href="#"`) und müssen vor dem Live‑Gang in `Blockzilla 2 Promo.html` eingetragen werden:
+Aktuell sind folgende Links Platzhalter (`href="#"`) und müssen vor dem Live‑Gang in `index.html` eingetragen werden:
 
 | Stelle | Was |
 |---|---|
