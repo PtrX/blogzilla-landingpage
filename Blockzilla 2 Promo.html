@@ -297,20 +297,18 @@
     display:flex;flex-direction:column;
   }
   .char-photo{
-    height:280px;position:relative;
+    aspect-ratio:1;position:relative;
     background:
-      radial-gradient(ellipse 70% 50% at 50% 50%, rgba(168,85,247,.25), transparent 70%),
+      radial-gradient(ellipse 70% 60% at 50% 60%, rgba(168,85,247,.28), transparent 70%),
       linear-gradient(180deg,#1a0f2e 0%, #0d0719 100%);
     display:grid;place-items:center;
     overflow:hidden;
   }
   .char-photo img{
-    height:96%;width:auto;object-fit:contain;object-position:center;
-    filter:drop-shadow(0 8px 16px rgba(168,85,247,.4));
+    width:100%;height:100%;object-fit:cover;object-position:center top;
+    filter:drop-shadow(0 8px 20px rgba(168,85,247,.35));
     position:relative;z-index:1;
   }
-  .char-photo.bz{place-items:end center}
-  .char-photo.bz img{height:100%;object-position:bottom center}
   .char-body{padding:22px}
   .char h4{font-family:'Bungee',sans-serif;font-size:20px;margin:0 0 4px;letter-spacing:.04em}
   .char .age{font-family:'Press Start 2P',monospace;font-size:9px;color:var(--violet-bright);margin-bottom:14px;letter-spacing:.15em}
@@ -785,7 +783,7 @@
     <div class="chars reveal">
       <article class="char">
         <span class="char-tag">DER PLANER</span>
-        <div class="char-photo"><img src="assets/peter_portrait.png" alt="Peter" /></div>
+        <div class="char-photo"><img src="assets/peter_portrait.png?v=2" alt="Peter" /></div>
         <div class="char-body">
           <h4>Peter</h4>
           <div class="age">10 JAHRE · ANFÜHRER</div>
@@ -795,7 +793,7 @@
 
       <article class="char">
         <span class="char-tag">DER TRÄUMER</span>
-        <div class="char-photo"><img src="assets/eduard_portrait.png" alt="Eduard" /></div>
+        <div class="char-photo"><img src="assets/eduard_portrait.png?v=2" alt="Eduard" /></div>
         <div class="char-body">
           <h4>Eduard</h4>
           <div class="age">7 JAHRE · TRÄUMER</div>
@@ -805,7 +803,7 @@
 
       <article class="char">
         <span class="char-tag">DIE KLEINE</span>
-        <div class="char-photo"><img src="assets/elisaweta_portrait.png" alt="Elisaweta" /></div>
+        <div class="char-photo"><img src="assets/elisaweta_portrait.png?v=2" alt="Elisaweta" /></div>
         <div class="char-body">
           <h4>Elisaweta</h4>
           <div class="age">3 JAHRE · ERFINDERIN</div>
@@ -903,7 +901,7 @@
           <div class="stat"><strong>6+</strong>ALTER</div>
         </div>
         <div class="audio-actions">
-          <a class="btn btn-primary" href="#karaoke">
+          <a class="btn btn-primary" href="#audiobook">
             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
             Jetzt anhören
           </a>
