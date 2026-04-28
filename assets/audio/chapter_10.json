@@ -1,0 +1,3748 @@
+{
+  "chapter": 10,
+  "kapitel": "9",
+  "duration": 385.2,
+  "source": "whisper-medium",
+  "words": [
+    {
+      "word": "Der",
+      "start": 0.0,
+      "end": 0.3
+    },
+    {
+      "word": "Plan",
+      "start": 0.3,
+      "end": 0.58
+    },
+    {
+      "word": "war",
+      "start": 0.58,
+      "end": 0.88
+    },
+    {
+      "word": "einfach.",
+      "start": 0.88,
+      "end": 1.52
+    },
+    {
+      "word": "Und",
+      "start": 2.18,
+      "end": 2.56
+    },
+    {
+      "word": "wahnsinnig.",
+      "start": 2.56,
+      "end": 3.58
+    },
+    {
+      "word": "Erstens,",
+      "start": 4.52,
+      "end": 5.3
+    },
+    {
+      "word": "Blockziller",
+      "start": 5.7,
+      "end": 6.12
+    },
+    {
+      "word": "zum",
+      "start": 6.12,
+      "end": 6.4
+    },
+    {
+      "word": "Portal",
+      "start": 6.4,
+      "end": 6.9
+    },
+    {
+      "word": "locken,",
+      "start": 6.9,
+      "end": 7.44
+    },
+    {
+      "word": "zum",
+      "start": 7.72,
+      "end": 7.9
+    },
+    {
+      "word": "Hügel,",
+      "start": 7.9,
+      "end": 8.34
+    },
+    {
+      "word": "wo",
+      "start": 8.34,
+      "end": 8.5
+    },
+    {
+      "word": "der",
+      "start": 8.5,
+      "end": 8.68
+    },
+    {
+      "word": "Riss",
+      "start": 8.68,
+      "end": 8.94
+    },
+    {
+      "word": "zwischen",
+      "start": 8.94,
+      "end": 9.24
+    },
+    {
+      "word": "den",
+      "start": 9.24,
+      "end": 9.52
+    },
+    {
+      "word": "Welten",
+      "start": 9.52,
+      "end": 9.8
+    },
+    {
+      "word": "schimmerte.",
+      "start": 9.8,
+      "end": 10.32
+    },
+    {
+      "word": "Je",
+      "start": 11.34,
+      "end": 11.52
+    },
+    {
+      "word": "näher",
+      "start": 11.52,
+      "end": 11.82
+    },
+    {
+      "word": "das",
+      "start": 11.82,
+      "end": 12.06
+    },
+    {
+      "word": "Monster",
+      "start": 12.06,
+      "end": 12.34
+    },
+    {
+      "word": "am",
+      "start": 12.34,
+      "end": 12.54
+    },
+    {
+      "word": "Portal",
+      "start": 12.54,
+      "end": 12.9
+    },
+    {
+      "word": "war,",
+      "start": 12.9,
+      "end": 13.4
+    },
+    {
+      "word": "desto",
+      "start": 13.62,
+      "end": 13.92
+    },
+    {
+      "word": "stärker",
+      "start": 13.92,
+      "end": 14.4
+    },
+    {
+      "word": "wäre",
+      "start": 14.4,
+      "end": 14.62
+    },
+    {
+      "word": "die",
+      "start": 14.62,
+      "end": 14.9
+    },
+    {
+      "word": "Verbindung",
+      "start": 14.9,
+      "end": 15.32
+    },
+    {
+      "word": "zu",
+      "start": 15.32,
+      "end": 15.56
+    },
+    {
+      "word": "Elisabetas",
+      "start": 15.56,
+      "end": 16.22
+    },
+    {
+      "word": "Seite.",
+      "start": 16.22,
+      "end": 16.68
+    },
+    {
+      "word": "Zweitens,",
+      "start": 17.78,
+      "end": 18.56
+    },
+    {
+      "word": "Blockziller",
+      "start": 19.0,
+      "end": 19.48
+    },
+    {
+      "word": "dort",
+      "start": 19.48,
+      "end": 19.72
+    },
+    {
+      "word": "festhalten.",
+      "start": 19.72,
+      "end": 20.4
+    },
+    {
+      "word": "Irgendwie.",
+      "start": 20.96,
+      "end": 21.66
+    },
+    {
+      "word": "Drittens,",
+      "start": 22.98,
+      "end": 23.58
+    },
+    {
+      "word": "durch",
+      "start": 23.76,
+      "end": 24.02
+    },
+    {
+      "word": "das",
+      "start": 24.02,
+      "end": 24.28
+    },
+    {
+      "word": "Portal",
+      "start": 24.28,
+      "end": 24.62
+    },
+    {
+      "word": "rufen",
+      "start": 24.62,
+      "end": 25.12
+    },
+    {
+      "word": "und",
+      "start": 25.12,
+      "end": 25.44
+    },
+    {
+      "word": "hoffen,",
+      "start": 25.44,
+      "end": 25.82
+    },
+    {
+      "word": "dass",
+      "start": 25.86,
+      "end": 26.08
+    },
+    {
+      "word": "eine",
+      "start": 26.08,
+      "end": 26.3
+    },
+    {
+      "word": "dreijährige",
+      "start": 26.3,
+      "end": 27.06
+    },
+    {
+      "word": "Verstand",
+      "start": 27.06,
+      "end": 27.76
+    },
+    {
+      "word": "was",
+      "start": 27.76,
+      "end": 28.16
+    },
+    {
+      "word": "zu",
+      "start": 28.16,
+      "end": 28.42
+    },
+    {
+      "word": "tun",
+      "start": 28.42,
+      "end": 28.62
+    },
+    {
+      "word": "war.",
+      "start": 28.62,
+      "end": 28.96
+    },
+    {
+      "word": "Das",
+      "start": 30.1,
+      "end": 30.3
+    },
+    {
+      "word": "ist",
+      "start": 30.3,
+      "end": 30.56
+    },
+    {
+      "word": "der",
+      "start": 30.56,
+      "end": 30.8
+    },
+    {
+      "word": "verrückteste",
+      "start": 30.8,
+      "end": 31.5
+    },
+    {
+      "word": "Plan,",
+      "start": 31.5,
+      "end": 31.82
+    },
+    {
+      "word": "den",
+      "start": 32.02,
+      "end": 32.02
+    },
+    {
+      "word": "ich",
+      "start": 32.02,
+      "end": 32.2
+    },
+    {
+      "word": "je",
+      "start": 32.2,
+      "end": 32.42
+    },
+    {
+      "word": "gehört",
+      "start": 32.42,
+      "end": 32.8
+    },
+    {
+      "word": "habe,",
+      "start": 32.8,
+      "end": 33.26
+    },
+    {
+      "word": "sagte",
+      "start": 33.74,
+      "end": 33.92
+    },
+    {
+      "word": "Eduard.",
+      "start": 33.92,
+      "end": 34.66
+    },
+    {
+      "word": "Hast",
+      "start": 35.62,
+      "end": 35.84
+    },
+    {
+      "word": "du",
+      "start": 35.84,
+      "end": 35.96
+    },
+    {
+      "word": "einen",
+      "start": 35.96,
+      "end": 36.12
+    },
+    {
+      "word": "besseren?",
+      "start": 36.12,
+      "end": 36.66
+    },
+    {
+      "word": "Eduard",
+      "start": 37.56,
+      "end": 38.1
+    },
+    {
+      "word": "dachte",
+      "start": 38.1,
+      "end": 38.34
+    },
+    {
+      "word": "nach.",
+      "start": 38.34,
+      "end": 38.76
+    },
+    {
+      "word": "Nein,",
+      "start": 40.16,
+      "end": 40.42
+    },
+    {
+      "word": "aber",
+      "start": 40.5,
+      "end": 40.8
+    },
+    {
+      "word": "ich",
+      "start": 40.8,
+      "end": 40.98
+    },
+    {
+      "word": "vertraue",
+      "start": 40.98,
+      "end": 41.38
+    },
+    {
+      "word": "dir.",
+      "start": 41.38,
+      "end": 41.68
+    },
+    {
+      "word": "Lass",
+      "start": 42.12,
+      "end": 42.3
+    },
+    {
+      "word": "uns",
+      "start": 42.3,
+      "end": 42.5
+    },
+    {
+      "word": "gehen.",
+      "start": 42.5,
+      "end": 42.78
+    },
+    {
+      "word": "Sie",
+      "start": 44.04,
+      "end": 44.34
+    },
+    {
+      "word": "kletterten",
+      "start": 44.34,
+      "end": 44.78
+    },
+    {
+      "word": "aus",
+      "start": 44.78,
+      "end": 45.0
+    },
+    {
+      "word": "der",
+      "start": 45.0,
+      "end": 45.18
+    },
+    {
+      "word": "Höhle.",
+      "start": 45.18,
+      "end": 45.84
+    },
+    {
+      "word": "Der",
+      "start": 46.24,
+      "end": 46.46
+    },
+    {
+      "word": "Morgen",
+      "start": 46.46,
+      "end": 46.76
+    },
+    {
+      "word": "war",
+      "start": 46.76,
+      "end": 46.96
+    },
+    {
+      "word": "über",
+      "start": 46.96,
+      "end": 47.16
+    },
+    {
+      "word": "die",
+      "start": 47.16,
+      "end": 47.32
+    },
+    {
+      "word": "Minecraft",
+      "start": 47.32,
+      "end": 47.84
+    },
+    {
+      "word": "-Welt",
+      "start": 47.84,
+      "end": 48.1
+    },
+    {
+      "word": "gekommen,",
+      "start": 48.1,
+      "end": 48.56
+    },
+    {
+      "word": "der",
+      "start": 48.56,
+      "end": 49.4
+    },
+    {
+      "word": "Himmel",
+      "start": 49.4,
+      "end": 49.62
+    },
+    {
+      "word": "war",
+      "start": 49.62,
+      "end": 49.8
+    },
+    {
+      "word": "golden",
+      "start": 49.8,
+      "end": 50.24
+    },
+    {
+      "word": "und",
+      "start": 50.24,
+      "end": 50.68
+    },
+    {
+      "word": "die",
+      "start": 50.68,
+      "end": 50.92
+    },
+    {
+      "word": "Zombies",
+      "start": 50.92,
+      "end": 51.34
+    },
+    {
+      "word": "und",
+      "start": 51.34,
+      "end": 51.54
+    },
+    {
+      "word": "Skelette",
+      "start": 51.54,
+      "end": 52.0
+    },
+    {
+      "word": "verbrannten",
+      "start": 52.0,
+      "end": 52.66
+    },
+    {
+      "word": "in",
+      "start": 52.66,
+      "end": 52.9
+    },
+    {
+      "word": "der",
+      "start": 52.9,
+      "end": 53.08
+    },
+    {
+      "word": "Sonne,",
+      "start": 53.08,
+      "end": 53.64
+    },
+    {
+      "word": "wie",
+      "start": 53.7,
+      "end": 53.88
+    },
+    {
+      "word": "sie",
+      "start": 53.88,
+      "end": 54.04
+    },
+    {
+      "word": "es",
+      "start": 54.04,
+      "end": 54.26
+    },
+    {
+      "word": "immer",
+      "start": 54.26,
+      "end": 54.56
+    },
+    {
+      "word": "taten.",
+      "start": 54.56,
+      "end": 54.96
+    },
+    {
+      "word": "In",
+      "start": 55.98,
+      "end": 56.2
+    },
+    {
+      "word": "der",
+      "start": 56.2,
+      "end": 56.44
+    },
+    {
+      "word": "Ferne",
+      "start": 56.44,
+      "end": 56.78
+    },
+    {
+      "word": "stand",
+      "start": 56.78,
+      "end": 57.08
+    },
+    {
+      "word": "Blockziller",
+      "start": 57.08,
+      "end": 57.7
+    },
+    {
+      "word": "wie",
+      "start": 57.7,
+      "end": 57.98
+    },
+    {
+      "word": "ein",
+      "start": 57.98,
+      "end": 58.22
+    },
+    {
+      "word": "schwarzer",
+      "start": 58.22,
+      "end": 58.74
+    },
+    {
+      "word": "Turm,",
+      "start": 58.74,
+      "end": 59.48
+    },
+    {
+      "word": "sein",
+      "start": 59.8,
+      "end": 59.86
+    },
+    {
+      "word": "Herz",
+      "start": 59.86,
+      "end": 60.24
+    },
+    {
+      "word": "das",
+      "start": 60.24,
+      "end": 60.56
+    },
+    {
+      "word": "einzige",
+      "start": 60.56,
+      "end": 61.0
+    },
+    {
+      "word": "violette",
+      "start": 61.0,
+      "end": 61.48
+    },
+    {
+      "word": "Licht,",
+      "start": 61.48,
+      "end": 61.92
+    },
+    {
+      "word": "weit",
+      "start": 62.28,
+      "end": 62.42
+    },
+    {
+      "word": "und",
+      "start": 62.42,
+      "end": 62.84
+    },
+    {
+      "word": "breit.",
+      "start": 62.84,
+      "end": 63.64
+    },
+    {
+      "word": "Um,",
+      "start": 64.52,
+      "end": 64.86
+    },
+    {
+      "word": "um,",
+      "start": 66.02,
+      "end": 66.92
+    },
+    {
+      "word": "um.",
+      "start": 67.88,
+      "end": 68.46
+    },
+    {
+      "word": "Ich",
+      "start": 69.5,
+      "end": 70.0
+    },
+    {
+      "word": "übernehme",
+      "start": 70.0,
+      "end": 70.36
+    },
+    {
+      "word": "die",
+      "start": 70.36,
+      "end": 70.6
+    },
+    {
+      "word": "Ablenkung,",
+      "start": 70.6,
+      "end": 71.28
+    },
+    {
+      "word": "sagte",
+      "start": 71.58,
+      "end": 71.74
+    },
+    {
+      "word": "Eduard.",
+      "start": 71.74,
+      "end": 72.28
+    },
+    {
+      "word": "Peter",
+      "start": 73.36,
+      "end": 73.64
+    },
+    {
+      "word": "packte",
+      "start": 73.64,
+      "end": 74.02
+    },
+    {
+      "word": "seinen",
+      "start": 74.02,
+      "end": 74.18
+    },
+    {
+      "word": "Bruder",
+      "start": 74.18,
+      "end": 74.5
+    },
+    {
+      "word": "am",
+      "start": 74.5,
+      "end": 74.76
+    },
+    {
+      "word": "Arm.",
+      "start": 74.76,
+      "end": 75.0
+    },
+    {
+      "word": "Eduard,",
+      "start": 75.92,
+      "end": 76.66
+    },
+    {
+      "word": "bleib",
+      "start": 76.88,
+      "end": 77.08
+    },
+    {
+      "word": "hier.",
+      "start": 77.08,
+      "end": 77.76
+    },
+    {
+      "word": "Ich",
+      "start": 78.68,
+      "end": 78.92
+    },
+    {
+      "word": "bin",
+      "start": 78.92,
+      "end": 79.16
+    },
+    {
+      "word": "schneller",
+      "start": 79.16,
+      "end": 79.42
+    },
+    {
+      "word": "als",
+      "start": 79.42,
+      "end": 79.66
+    },
+    {
+      "word": "du",
+      "start": 79.66,
+      "end": 80.1
+    },
+    {
+      "word": "und",
+      "start": 80.1,
+      "end": 80.56
+    },
+    {
+      "word": "kleiner",
+      "start": 80.56,
+      "end": 81.1
+    },
+    {
+      "word": "und",
+      "start": 81.1,
+      "end": 82.14
+    },
+    {
+      "word": "...",
+      "start": 82.14,
+      "end": 82.52
+    },
+    {
+      "word": "Eduard",
+      "start": 82.52,
+      "end": 83.16
+    },
+    {
+      "word": "grinsteschief.",
+      "start": 83.16,
+      "end": 84.02
+    },
+    {
+      "word": "Ich",
+      "start": 84.72,
+      "end": 85.1
+    },
+    {
+      "word": "bin",
+      "start": 85.1,
+      "end": 85.38
+    },
+    {
+      "word": "der,",
+      "start": 85.38,
+      "end": 85.66
+    },
+    {
+      "word": "der",
+      "start": 85.66,
+      "end": 85.82
+    },
+    {
+      "word": "das",
+      "start": 85.82,
+      "end": 86.08
+    },
+    {
+      "word": "hier",
+      "start": 86.08,
+      "end": 86.28
+    },
+    {
+      "word": "geträumt",
+      "start": 86.28,
+      "end": 86.72
+    },
+    {
+      "word": "hat.",
+      "start": 86.72,
+      "end": 87.0
+    },
+    {
+      "word": "Das",
+      "start": 87.68,
+      "end": 87.94
+    },
+    {
+      "word": "Monster",
+      "start": 87.94,
+      "end": 88.3
+    },
+    {
+      "word": "gehört",
+      "start": 88.3,
+      "end": 88.6
+    },
+    {
+      "word": "zu",
+      "start": 88.6,
+      "end": 88.88
+    },
+    {
+      "word": "meinem",
+      "start": 88.88,
+      "end": 89.08
+    },
+    {
+      "word": "Traum.",
+      "start": 89.08,
+      "end": 89.84
+    },
+    {
+      "word": "Ich",
+      "start": 90.16,
+      "end": 90.42
+    },
+    {
+      "word": "kann",
+      "start": 90.42,
+      "end": 90.6
+    },
+    {
+      "word": "es",
+      "start": 90.6,
+      "end": 90.74
+    },
+    {
+      "word": "auch",
+      "start": 90.74,
+      "end": 90.94
+    },
+    {
+      "word": "durch",
+      "start": 90.94,
+      "end": 91.26
+    },
+    {
+      "word": "meinen",
+      "start": 91.26,
+      "end": 91.5
+    },
+    {
+      "word": "Traum",
+      "start": 91.5,
+      "end": 91.94
+    },
+    {
+      "word": "jagen.",
+      "start": 91.94,
+      "end": 92.58
+    },
+    {
+      "word": "Peter",
+      "start": 93.86,
+      "end": 94.08
+    },
+    {
+      "word": "wollte",
+      "start": 94.08,
+      "end": 94.34
+    },
+    {
+      "word": "protestieren.",
+      "start": 94.34,
+      "end": 95.26
+    },
+    {
+      "word": "Jede",
+      "start": 95.7,
+      "end": 96.1
+    },
+    {
+      "word": "Faser",
+      "start": 96.1,
+      "end": 96.48
+    },
+    {
+      "word": "seines",
+      "start": 96.48,
+      "end": 96.82
+    },
+    {
+      "word": "großen",
+      "start": 96.82,
+      "end": 97.32
+    },
+    {
+      "word": "Bruderinstinkts",
+      "start": 97.32,
+      "end": 98.5
+    },
+    {
+      "word": "schrie",
+      "start": 98.5,
+      "end": 99.08
+    },
+    {
+      "word": "nein.",
+      "start": 99.08,
+      "end": 99.6
+    },
+    {
+      "word": "Aber",
+      "start": 100.22,
+      "end": 100.82
+    },
+    {
+      "word": "Eduard",
+      "start": 100.82,
+      "end": 101.26
+    },
+    {
+      "word": "hatte",
+      "start": 101.26,
+      "end": 101.46
+    },
+    {
+      "word": "Recht.",
+      "start": 101.46,
+      "end": 101.86
+    },
+    {
+      "word": "Und",
+      "start": 102.78,
+      "end": 103.0
+    },
+    {
+      "word": "Peter",
+      "start": 103.0,
+      "end": 103.26
+    },
+    {
+      "word": "musste",
+      "start": 103.26,
+      "end": 103.66
+    },
+    {
+      "word": "zum",
+      "start": 103.66,
+      "end": 103.86
+    },
+    {
+      "word": "Portal.",
+      "start": 103.86,
+      "end": 104.36
+    },
+    {
+      "word": "Bring",
+      "start": 105.8,
+      "end": 106.08
+    },
+    {
+      "word": "ihn",
+      "start": 106.08,
+      "end": 106.26
+    },
+    {
+      "word": "zum",
+      "start": 106.26,
+      "end": 106.44
+    },
+    {
+      "word": "Hügel,",
+      "start": 106.44,
+      "end": 107.08
+    },
+    {
+      "word": "sagte",
+      "start": 107.36,
+      "end": 107.5
+    },
+    {
+      "word": "Peter.",
+      "start": 107.5,
+      "end": 107.9
+    },
+    {
+      "word": "Seine",
+      "start": 108.74,
+      "end": 109.04
+    },
+    {
+      "word": "Stimme",
+      "start": 109.04,
+      "end": 109.3
+    },
+    {
+      "word": "war",
+      "start": 109.3,
+      "end": 109.56
+    },
+    {
+      "word": "fester",
+      "start": 109.56,
+      "end": 109.92
+    },
+    {
+      "word": "als",
+      "start": 109.92,
+      "end": 110.08
+    },
+    {
+      "word": "er",
+      "start": 110.08,
+      "end": 110.24
+    },
+    {
+      "word": "sich",
+      "start": 110.24,
+      "end": 110.46
+    },
+    {
+      "word": "fühlte.",
+      "start": 110.46,
+      "end": 111.02
+    },
+    {
+      "word": "Und",
+      "start": 111.44,
+      "end": 111.82
+    },
+    {
+      "word": "dann",
+      "start": 111.82,
+      "end": 112.28
+    },
+    {
+      "word": "nichts",
+      "start": 112.28,
+      "end": 112.56
+    },
+    {
+      "word": "wie",
+      "start": 112.56,
+      "end": 112.8
+    },
+    {
+      "word": "weg.",
+      "start": 112.8,
+      "end": 113.04
+    },
+    {
+      "word": "Eduard",
+      "start": 114.26,
+      "end": 114.74
+    },
+    {
+      "word": "nickte.",
+      "start": 114.74,
+      "end": 115.18
+    },
+    {
+      "word": "Er",
+      "start": 115.96,
+      "end": 116.14
+    },
+    {
+      "word": "hob",
+      "start": 116.14,
+      "end": 116.32
+    },
+    {
+      "word": "den",
+      "start": 116.32,
+      "end": 116.6
+    },
+    {
+      "word": "Bogen",
+      "start": 116.6,
+      "end": 116.9
+    },
+    {
+      "word": "auf,",
+      "start": 116.9,
+      "end": 117.34
+    },
+    {
+      "word": "den",
+      "start": 117.42,
+      "end": 117.52
+    },
+    {
+      "word": "er",
+      "start": 117.52,
+      "end": 117.72
+    },
+    {
+      "word": "repariert",
+      "start": 117.72,
+      "end": 118.22
+    },
+    {
+      "word": "hatte,",
+      "start": 118.22,
+      "end": 118.5
+    },
+    {
+      "word": "neue",
+      "start": 119.1,
+      "end": 119.32
+    },
+    {
+      "word": "Sehne",
+      "start": 119.32,
+      "end": 119.72
+    },
+    {
+      "word": "aus",
+      "start": 119.72,
+      "end": 120.0
+    },
+    {
+      "word": "Spinnennetz,",
+      "start": 120.0,
+      "end": 120.8
+    },
+    {
+      "word": "krumm",
+      "start": 121.18,
+      "end": 121.58
+    },
+    {
+      "word": "und",
+      "start": 121.58,
+      "end": 121.84
+    },
+    {
+      "word": "unzuverlässig,",
+      "start": 121.84,
+      "end": 122.88
+    },
+    {
+      "word": "aber",
+      "start": 123.18,
+      "end": 123.38
+    },
+    {
+      "word": "besser",
+      "start": 123.38,
+      "end": 123.62
+    },
+    {
+      "word": "als",
+      "start": 123.62,
+      "end": 123.92
+    },
+    {
+      "word": "nichts.",
+      "start": 123.92,
+      "end": 124.18
+    },
+    {
+      "word": "Er",
+      "start": 125.02,
+      "end": 125.3
+    },
+    {
+      "word": "legte",
+      "start": 125.3,
+      "end": 125.58
+    },
+    {
+      "word": "einen",
+      "start": 125.58,
+      "end": 125.86
+    },
+    {
+      "word": "Pfeil",
+      "start": 125.86,
+      "end": 126.2
+    },
+    {
+      "word": "ein.",
+      "start": 126.2,
+      "end": 126.58
+    },
+    {
+      "word": "Hey,",
+      "start": 127.76,
+      "end": 128.52
+    },
+    {
+      "word": "rief",
+      "start": 129.08,
+      "end": 129.28
+    },
+    {
+      "word": "er",
+      "start": 129.28,
+      "end": 129.4
+    },
+    {
+      "word": "in",
+      "start": 129.4,
+      "end": 129.52
+    },
+    {
+      "word": "den",
+      "start": 129.52,
+      "end": 129.68
+    },
+    {
+      "word": "Morgen.",
+      "start": 129.68,
+      "end": 130.0
+    },
+    {
+      "word": "Hey",
+      "start": 130.84,
+      "end": 131.2
+    },
+    {
+      "word": "du,",
+      "start": 131.2,
+      "end": 131.78
+    },
+    {
+      "word": "Block",
+      "start": 132.08,
+      "end": 132.22
+    },
+    {
+      "word": "Gesicht.",
+      "start": 132.22,
+      "end": 132.82
+    },
+    {
+      "word": "Nichts.",
+      "start": 134.84,
+      "end": 135.6
+    },
+    {
+      "word": "Eduard",
+      "start": 136.02,
+      "end": 136.3
+    },
+    {
+      "word": "bis",
+      "start": 136.3,
+      "end": 136.5
+    },
+    {
+      "word": "die",
+      "start": 136.5,
+      "end": 136.66
+    },
+    {
+      "word": "Zähne",
+      "start": 136.66,
+      "end": 137.08
+    },
+    {
+      "word": "zusammen,",
+      "start": 137.08,
+      "end": 137.6
+    },
+    {
+      "word": "zielte",
+      "start": 137.98,
+      "end": 138.76
+    },
+    {
+      "word": "und",
+      "start": 138.76,
+      "end": 139.1
+    },
+    {
+      "word": "schoss.",
+      "start": 139.1,
+      "end": 139.52
+    },
+    {
+      "word": "Der",
+      "start": 140.42,
+      "end": 140.64
+    },
+    {
+      "word": "Pfeil",
+      "start": 140.64,
+      "end": 141.04
+    },
+    {
+      "word": "flog",
+      "start": 141.04,
+      "end": 141.42
+    },
+    {
+      "word": "und",
+      "start": 141.42,
+      "end": 141.92
+    },
+    {
+      "word": "traf",
+      "start": 141.92,
+      "end": 142.36
+    },
+    {
+      "word": "Block",
+      "start": 142.36,
+      "end": 142.62
+    },
+    {
+      "word": "Ziller",
+      "start": 142.62,
+      "end": 142.92
+    },
+    {
+      "word": "mitten",
+      "start": 142.92,
+      "end": 143.38
+    },
+    {
+      "word": "auf",
+      "start": 143.38,
+      "end": 143.54
+    },
+    {
+      "word": "die",
+      "start": 143.54,
+      "end": 143.76
+    },
+    {
+      "word": "Nase.",
+      "start": 143.76,
+      "end": 144.12
+    },
+    {
+      "word": "Er",
+      "start": 144.96,
+      "end": 145.18
+    },
+    {
+      "word": "richtete",
+      "start": 145.18,
+      "end": 145.56
+    },
+    {
+      "word": "natürlich",
+      "start": 145.56,
+      "end": 146.08
+    },
+    {
+      "word": "keinen",
+      "start": 146.08,
+      "end": 146.34
+    },
+    {
+      "word": "Schaden",
+      "start": 146.34,
+      "end": 146.74
+    },
+    {
+      "word": "an,",
+      "start": 146.74,
+      "end": 147.4
+    },
+    {
+      "word": "aber",
+      "start": 147.72,
+      "end": 148.06
+    },
+    {
+      "word": "er",
+      "start": 148.06,
+      "end": 148.3
+    },
+    {
+      "word": "nervte.",
+      "start": 148.3,
+      "end": 148.86
+    },
+    {
+      "word": "Block",
+      "start": 149.86,
+      "end": 150.12
+    },
+    {
+      "word": "Ziller",
+      "start": 150.12,
+      "end": 150.4
+    },
+    {
+      "word": "drehte",
+      "start": 150.4,
+      "end": 150.74
+    },
+    {
+      "word": "sich",
+      "start": 150.74,
+      "end": 151.0
+    },
+    {
+      "word": "langsam",
+      "start": 151.0,
+      "end": 151.5
+    },
+    {
+      "word": "um.",
+      "start": 151.5,
+      "end": 151.92
+    },
+    {
+      "word": "Die",
+      "start": 152.78,
+      "end": 153.12
+    },
+    {
+      "word": "orangenen",
+      "start": 153.12,
+      "end": 153.66
+    },
+    {
+      "word": "Augen",
+      "start": 153.66,
+      "end": 153.94
+    },
+    {
+      "word": "fanden",
+      "start": 153.94,
+      "end": 154.46
+    },
+    {
+      "word": "Eduard.",
+      "start": 154.46,
+      "end": 155.04
+    },
+    {
+      "word": "Ja,",
+      "start": 156.32,
+      "end": 157.1
+    },
+    {
+      "word": "richtig,",
+      "start": 157.34,
+      "end": 158.0
+    },
+    {
+      "word": "schrie",
+      "start": 158.6,
+      "end": 158.74
+    },
+    {
+      "word": "Eduard.",
+      "start": 158.74,
+      "end": 159.34
+    },
+    {
+      "word": "Ich",
+      "start": 160.22,
+      "end": 160.42
+    },
+    {
+      "word": "bin's,",
+      "start": 160.42,
+      "end": 161.18
+    },
+    {
+      "word": "der",
+      "start": 161.2,
+      "end": 161.44
+    },
+    {
+      "word": "Nervige.",
+      "start": 161.44,
+      "end": 162.06
+    },
+    {
+      "word": "Erinnerst",
+      "start": 162.96,
+      "end": 163.4
+    },
+    {
+      "word": "du",
+      "start": 163.4,
+      "end": 163.44
+    },
+    {
+      "word": "dich",
+      "start": 163.44,
+      "end": 163.6
+    },
+    {
+      "word": "an",
+      "start": 163.6,
+      "end": 163.76
+    },
+    {
+      "word": "mich?",
+      "start": 163.76,
+      "end": 164.04
+    },
+    {
+      "word": "Holy",
+      "start": 165.16,
+      "end": 165.8
+    },
+    {
+      "word": "Bam!",
+      "start": 165.8,
+      "end": 166.64
+    },
+    {
+      "word": "Block",
+      "start": 168.08,
+      "end": 168.28
+    },
+    {
+      "word": "Ziller",
+      "start": 168.28,
+      "end": 168.56
+    },
+    {
+      "word": "erinnerte",
+      "start": 168.56,
+      "end": 169.1
+    },
+    {
+      "word": "sich.",
+      "start": 169.1,
+      "end": 169.52
+    },
+    {
+      "word": "Das",
+      "start": 170.38,
+      "end": 170.6
+    },
+    {
+      "word": "Monster",
+      "start": 170.6,
+      "end": 171.04
+    },
+    {
+      "word": "brüllte,",
+      "start": 171.04,
+      "end": 171.82
+    },
+    {
+      "word": "ein",
+      "start": 172.28,
+      "end": 172.54
+    },
+    {
+      "word": "Schrei,",
+      "start": 172.54,
+      "end": 172.88
+    },
+    {
+      "word": "der",
+      "start": 172.94,
+      "end": 173.06
+    },
+    {
+      "word": "den",
+      "start": 173.06,
+      "end": 173.32
+    },
+    {
+      "word": "Morgen",
+      "start": 173.32,
+      "end": 173.58
+    },
+    {
+      "word": "zerriss",
+      "start": 173.58,
+      "end": 174.34
+    },
+    {
+      "word": "und",
+      "start": 174.34,
+      "end": 174.82
+    },
+    {
+      "word": "setzte",
+      "start": 174.82,
+      "end": 175.18
+    },
+    {
+      "word": "sich",
+      "start": 175.18,
+      "end": 175.38
+    },
+    {
+      "word": "in",
+      "start": 175.38,
+      "end": 175.64
+    },
+    {
+      "word": "Bewegung",
+      "start": 175.64,
+      "end": 176.54
+    },
+    {
+      "word": "auf",
+      "start": 176.54,
+      "end": 177.06
+    },
+    {
+      "word": "Eduard",
+      "start": 177.06,
+      "end": 177.62
+    },
+    {
+      "word": "zu.",
+      "start": 177.62,
+      "end": 178.06
+    },
+    {
+      "word": "Eduard",
+      "start": 179.24,
+      "end": 179.82
+    },
+    {
+      "word": "rannte.",
+      "start": 179.82,
+      "end": 180.28
+    },
+    {
+      "word": "Er",
+      "start": 181.28,
+      "end": 181.56
+    },
+    {
+      "word": "rannte,",
+      "start": 181.56,
+      "end": 181.92
+    },
+    {
+      "word": "wie",
+      "start": 181.94,
+      "end": 182.12
+    },
+    {
+      "word": "er",
+      "start": 182.12,
+      "end": 182.28
+    },
+    {
+      "word": "noch",
+      "start": 182.28,
+      "end": 182.58
+    },
+    {
+      "word": "nie",
+      "start": 182.58,
+      "end": 182.8
+    },
+    {
+      "word": "gerannt",
+      "start": 182.8,
+      "end": 183.12
+    },
+    {
+      "word": "war,",
+      "start": 183.12,
+      "end": 183.64
+    },
+    {
+      "word": "durch",
+      "start": 183.64,
+      "end": 184.1
+    },
+    {
+      "word": "die",
+      "start": 184.1,
+      "end": 184.32
+    },
+    {
+      "word": "Ruinen",
+      "start": 184.32,
+      "end": 184.72
+    },
+    {
+      "word": "des",
+      "start": 184.72,
+      "end": 185.0
+    },
+    {
+      "word": "Dorfes,",
+      "start": 185.0,
+      "end": 185.88
+    },
+    {
+      "word": "über",
+      "start": 185.96,
+      "end": 186.16
+    },
+    {
+      "word": "umgestürzte",
+      "start": 186.16,
+      "end": 186.94
+    },
+    {
+      "word": "Bäume,",
+      "start": 186.94,
+      "end": 187.5
+    },
+    {
+      "word": "durch",
+      "start": 187.66,
+      "end": 187.9
+    },
+    {
+      "word": "einen",
+      "start": 187.9,
+      "end": 188.12
+    },
+    {
+      "word": "Bach,",
+      "start": 188.12,
+      "end": 188.42
+    },
+    {
+      "word": "der",
+      "start": 188.52,
+      "end": 188.66
+    },
+    {
+      "word": "ihm",
+      "start": 188.66,
+      "end": 188.82
+    },
+    {
+      "word": "bis",
+      "start": 188.82,
+      "end": 189.08
+    },
+    {
+      "word": "zu",
+      "start": 189.08,
+      "end": 189.3
+    },
+    {
+      "word": "den",
+      "start": 189.3,
+      "end": 189.56
+    },
+    {
+      "word": "Knien",
+      "start": 189.56,
+      "end": 189.78
+    },
+    {
+      "word": "ging.",
+      "start": 189.78,
+      "end": 190.1
+    },
+    {
+      "word": "Hinter",
+      "start": 191.22,
+      "end": 191.54
+    },
+    {
+      "word": "ihm",
+      "start": 191.54,
+      "end": 191.82
+    },
+    {
+      "word": "bebte",
+      "start": 191.82,
+      "end": 192.24
+    },
+    {
+      "word": "der",
+      "start": 192.24,
+      "end": 192.44
+    },
+    {
+      "word": "Boden",
+      "start": 192.44,
+      "end": 192.72
+    },
+    {
+      "word": "mit",
+      "start": 192.72,
+      "end": 193.1
+    },
+    {
+      "word": "jedem",
+      "start": 193.1,
+      "end": 193.36
+    },
+    {
+      "word": "von",
+      "start": 193.36,
+      "end": 193.64
+    },
+    {
+      "word": "Block",
+      "start": 193.64,
+      "end": 193.88
+    },
+    {
+      "word": "Zillers",
+      "start": 193.88,
+      "end": 194.2
+    },
+    {
+      "word": "Schritten.",
+      "start": 194.2,
+      "end": 195.06
+    },
+    {
+      "word": "Bäume",
+      "start": 195.42,
+      "end": 195.86
+    },
+    {
+      "word": "krachten,",
+      "start": 195.86,
+      "end": 196.46
+    },
+    {
+      "word": "Blöcke",
+      "start": 196.88,
+      "end": 197.28
+    },
+    {
+      "word": "flogen",
+      "start": 197.28,
+      "end": 197.66
+    },
+    {
+      "word": "durch",
+      "start": 197.66,
+      "end": 197.92
+    },
+    {
+      "word": "die",
+      "start": 197.92,
+      "end": 198.12
+    },
+    {
+      "word": "Luft.",
+      "start": 198.12,
+      "end": 198.36
+    },
+    {
+      "word": "Eduard",
+      "start": 199.7,
+      "end": 200.1
+    },
+    {
+      "word": "rannte",
+      "start": 200.1,
+      "end": 200.36
+    },
+    {
+      "word": "auf",
+      "start": 200.36,
+      "end": 200.52
+    },
+    {
+      "word": "den",
+      "start": 200.52,
+      "end": 200.68
+    },
+    {
+      "word": "Hügel",
+      "start": 200.68,
+      "end": 201.0
+    },
+    {
+      "word": "zu.",
+      "start": 201.0,
+      "end": 201.32
+    },
+    {
+      "word": "Er",
+      "start": 202.04,
+      "end": 202.28
+    },
+    {
+      "word": "wagte",
+      "start": 202.28,
+      "end": 202.58
+    },
+    {
+      "word": "nicht,",
+      "start": 202.58,
+      "end": 202.78
+    },
+    {
+      "word": "sich",
+      "start": 202.8,
+      "end": 202.96
+    },
+    {
+      "word": "umzudrehen.",
+      "start": 202.96,
+      "end": 203.92
+    },
+    {
+      "word": "Er",
+      "start": 204.12,
+      "end": 204.32
+    },
+    {
+      "word": "konnte",
+      "start": 204.32,
+      "end": 204.58
+    },
+    {
+      "word": "Block",
+      "start": 204.58,
+      "end": 204.88
+    },
+    {
+      "word": "Zillers",
+      "start": 204.88,
+      "end": 205.26
+    },
+    {
+      "word": "Atem",
+      "start": 205.26,
+      "end": 205.74
+    },
+    {
+      "word": "spüren,",
+      "start": 205.74,
+      "end": 206.46
+    },
+    {
+      "word": "heiß",
+      "start": 206.72,
+      "end": 207.14
+    },
+    {
+      "word": "und",
+      "start": 207.14,
+      "end": 207.62
+    },
+    {
+      "word": "rasselnd",
+      "start": 207.62,
+      "end": 208.1
+    },
+    {
+      "word": "wie",
+      "start": 208.1,
+      "end": 208.28
+    },
+    {
+      "word": "ein",
+      "start": 208.28,
+      "end": 208.52
+    },
+    {
+      "word": "Ofen.",
+      "start": 208.52,
+      "end": 209.64
+    },
+    {
+      "word": "Peter",
+      "start": 209.64,
+      "end": 210.64
+    },
+    {
+      "word": "war",
+      "start": 210.64,
+      "end": 210.84
+    },
+    {
+      "word": "bereits",
+      "start": 210.84,
+      "end": 211.24
+    },
+    {
+      "word": "oben.",
+      "start": 211.24,
+      "end": 211.64
+    },
+    {
+      "word": "Er",
+      "start": 212.3,
+      "end": 212.5
+    },
+    {
+      "word": "stand",
+      "start": 212.5,
+      "end": 212.76
+    },
+    {
+      "word": "am",
+      "start": 212.76,
+      "end": 213.08
+    },
+    {
+      "word": "Riss,",
+      "start": 213.08,
+      "end": 213.48
+    },
+    {
+      "word": "der",
+      "start": 213.82,
+      "end": 214.02
+    },
+    {
+      "word": "schimmernden",
+      "start": 214.02,
+      "end": 214.6
+    },
+    {
+      "word": "Stelle",
+      "start": 214.6,
+      "end": 214.8
+    },
+    {
+      "word": "in",
+      "start": 214.8,
+      "end": 215.0
+    },
+    {
+      "word": "der",
+      "start": 215.0,
+      "end": 215.16
+    },
+    {
+      "word": "Luft,",
+      "start": 215.16,
+      "end": 215.46
+    },
+    {
+      "word": "wo",
+      "start": 215.58,
+      "end": 215.72
+    },
+    {
+      "word": "die",
+      "start": 215.72,
+      "end": 215.86
+    },
+    {
+      "word": "Minecraft",
+      "start": 215.86,
+      "end": 216.44
+    },
+    {
+      "word": "-Welt",
+      "start": 216.44,
+      "end": 216.78
+    },
+    {
+      "word": "dünn",
+      "start": 216.78,
+      "end": 217.26
+    },
+    {
+      "word": "wurde",
+      "start": 217.26,
+      "end": 217.56
+    },
+    {
+      "word": "und",
+      "start": 217.56,
+      "end": 218.16
+    },
+    {
+      "word": "die",
+      "start": 218.16,
+      "end": 218.42
+    },
+    {
+      "word": "reale",
+      "start": 218.42,
+      "end": 218.86
+    },
+    {
+      "word": "Welt",
+      "start": 218.86,
+      "end": 219.08
+    },
+    {
+      "word": "durchschien.",
+      "start": 219.08,
+      "end": 219.96
+    },
+    {
+      "word": "Von",
+      "start": 220.8,
+      "end": 221.02
+    },
+    {
+      "word": "hier",
+      "start": 221.02,
+      "end": 221.36
+    },
+    {
+      "word": "aus",
+      "start": 221.36,
+      "end": 221.64
+    },
+    {
+      "word": "konnte",
+      "start": 221.64,
+      "end": 221.92
+    },
+    {
+      "word": "er",
+      "start": 221.92,
+      "end": 222.14
+    },
+    {
+      "word": "es",
+      "start": 222.14,
+      "end": 222.38
+    },
+    {
+      "word": "sehen,",
+      "start": 222.38,
+      "end": 222.64
+    },
+    {
+      "word": "einen",
+      "start": 223.4,
+      "end": 223.72
+    },
+    {
+      "word": "Hauch",
+      "start": 223.72,
+      "end": 224.14
+    },
+    {
+      "word": "des",
+      "start": 224.14,
+      "end": 224.36
+    },
+    {
+      "word": "Kinderzimmers,",
+      "start": 224.36,
+      "end": 225.16
+    },
+    {
+      "word": "den",
+      "start": 226.12,
+      "end": 226.38
+    },
+    {
+      "word": "Teppich",
+      "start": 226.38,
+      "end": 226.74
+    },
+    {
+      "word": "mit",
+      "start": 226.74,
+      "end": 226.9
+    },
+    {
+      "word": "den",
+      "start": 226.9,
+      "end": 227.2
+    },
+    {
+      "word": "Stärmen",
+      "start": 227.2,
+      "end": 228.02
+    },
+    {
+      "word": "und",
+      "start": 228.02,
+      "end": 228.82
+    },
+    {
+      "word": "eine",
+      "start": 228.82,
+      "end": 229.16
+    },
+    {
+      "word": "winzige",
+      "start": 229.16,
+      "end": 229.74
+    },
+    {
+      "word": "Gestalt",
+      "start": 229.74,
+      "end": 230.24
+    },
+    {
+      "word": "davor.",
+      "start": 230.24,
+      "end": 230.64
+    },
+    {
+      "word": "Elizaveta!",
+      "start": 232.98,
+      "end": 233.58
+    },
+    {
+      "word": "schrie",
+      "start": 234.08,
+      "end": 234.5
+    },
+    {
+      "word": "Peter.",
+      "start": 234.5,
+      "end": 234.92
+    },
+    {
+      "word": "Seine",
+      "start": 235.96,
+      "end": 236.24
+    },
+    {
+      "word": "Stimme",
+      "start": 236.24,
+      "end": 236.52
+    },
+    {
+      "word": "halte",
+      "start": 236.52,
+      "end": 236.88
+    },
+    {
+      "word": "über",
+      "start": 236.88,
+      "end": 237.1
+    },
+    {
+      "word": "den",
+      "start": 237.1,
+      "end": 237.3
+    },
+    {
+      "word": "Hügel.",
+      "start": 237.3,
+      "end": 237.68
+    },
+    {
+      "word": "Sie",
+      "start": 238.42,
+      "end": 238.68
+    },
+    {
+      "word": "prallte",
+      "start": 238.68,
+      "end": 239.02
+    },
+    {
+      "word": "gegen",
+      "start": 239.02,
+      "end": 239.26
+    },
+    {
+      "word": "Block",
+      "start": 239.26,
+      "end": 239.56
+    },
+    {
+      "word": "Zillers",
+      "start": 239.56,
+      "end": 239.94
+    },
+    {
+      "word": "Brüllen,",
+      "start": 239.94,
+      "end": 240.48
+    },
+    {
+      "word": "wurde",
+      "start": 240.96,
+      "end": 241.12
+    },
+    {
+      "word": "fast",
+      "start": 241.12,
+      "end": 241.5
+    },
+    {
+      "word": "verschluckt.",
+      "start": 241.5,
+      "end": 242.08
+    },
+    {
+      "word": "Lisa!",
+      "start": 243.26,
+      "end": 243.86
+    },
+    {
+      "word": "Hörst",
+      "start": 244.14,
+      "end": 244.56
+    },
+    {
+      "word": "du",
+      "start": 244.56,
+      "end": 244.66
+    },
+    {
+      "word": "mich?",
+      "start": 244.66,
+      "end": 245.02
+    },
+    {
+      "word": "Eduard",
+      "start": 246.2,
+      "end": 246.74
+    },
+    {
+      "word": "erreichte",
+      "start": 246.74,
+      "end": 247.18
+    },
+    {
+      "word": "den",
+      "start": 247.18,
+      "end": 247.42
+    },
+    {
+      "word": "Hügel.",
+      "start": 247.42,
+      "end": 248.12
+    },
+    {
+      "word": "Block",
+      "start": 248.72,
+      "end": 248.98
+    },
+    {
+      "word": "Ziller",
+      "start": 248.98,
+      "end": 249.26
+    },
+    {
+      "word": "blieb",
+      "start": 249.26,
+      "end": 249.52
+    },
+    {
+      "word": "ein",
+      "start": 249.52,
+      "end": 249.78
+    },
+    {
+      "word": "paar",
+      "start": 249.78,
+      "end": 249.92
+    },
+    {
+      "word": "hundert",
+      "start": 249.92,
+      "end": 250.22
+    },
+    {
+      "word": "Meter",
+      "start": 250.22,
+      "end": 250.52
+    },
+    {
+      "word": "vor",
+      "start": 250.52,
+      "end": 250.76
+    },
+    {
+      "word": "dem",
+      "start": 250.76,
+      "end": 250.92
+    },
+    {
+      "word": "Hügel",
+      "start": 250.92,
+      "end": 251.24
+    },
+    {
+      "word": "stehen,",
+      "start": 251.24,
+      "end": 251.62
+    },
+    {
+      "word": "so",
+      "start": 252.22,
+      "end": 252.46
+    },
+    {
+      "word": "als",
+      "start": 252.46,
+      "end": 252.6
+    },
+    {
+      "word": "ob",
+      "start": 252.6,
+      "end": 252.74
+    },
+    {
+      "word": "es",
+      "start": 252.74,
+      "end": 252.94
+    },
+    {
+      "word": "merkte,",
+      "start": 252.94,
+      "end": 253.4
+    },
+    {
+      "word": "dass",
+      "start": 253.62,
+      "end": 253.76
+    },
+    {
+      "word": "es",
+      "start": 253.76,
+      "end": 253.94
+    },
+    {
+      "word": "eine",
+      "start": 253.94,
+      "end": 254.18
+    },
+    {
+      "word": "neue",
+      "start": 254.18,
+      "end": 254.44
+    },
+    {
+      "word": "Falle",
+      "start": 254.44,
+      "end": 254.72
+    },
+    {
+      "word": "war.",
+      "start": 254.72,
+      "end": 255.04
+    },
+    {
+      "word": "Es",
+      "start": 255.04,
+      "end": 256.1
+    },
+    {
+      "word": "war",
+      "start": 256.1,
+      "end": 256.32
+    },
+    {
+      "word": "dabei,",
+      "start": 256.32,
+      "end": 256.6
+    },
+    {
+      "word": "sich",
+      "start": 256.62,
+      "end": 256.8
+    },
+    {
+      "word": "umzudrehen.",
+      "start": 256.8,
+      "end": 257.82
+    },
+    {
+      "word": "Dann",
+      "start": 258.44,
+      "end": 258.68
+    },
+    {
+      "word": "schrie",
+      "start": 258.68,
+      "end": 258.94
+    },
+    {
+      "word": "Eduard.",
+      "start": 258.94,
+      "end": 259.7
+    },
+    {
+      "word": "Six!",
+      "start": 260.52,
+      "end": 260.98
+    },
+    {
+      "word": "Peter",
+      "start": 262.34,
+      "end": 262.66
+    },
+    {
+      "word": "verdrehte",
+      "start": 262.66,
+      "end": 263.12
+    },
+    {
+      "word": "die",
+      "start": 263.12,
+      "end": 263.38
+    },
+    {
+      "word": "Augen.",
+      "start": 263.38,
+      "end": 263.62
+    },
+    {
+      "word": "Das",
+      "start": 264.54,
+      "end": 264.82
+    },
+    {
+      "word": "ist",
+      "start": 264.82,
+      "end": 265.1
+    },
+    {
+      "word": "nicht",
+      "start": 265.1,
+      "end": 265.32
+    },
+    {
+      "word": "dein",
+      "start": 265.32,
+      "end": 265.5
+    },
+    {
+      "word": "Ernst",
+      "start": 265.5,
+      "end": 265.9
+    },
+    {
+      "word": "jetzt,",
+      "start": 265.9,
+      "end": 266.2
+    },
+    {
+      "word": "oder?",
+      "start": 266.24,
+      "end": 266.54
+    },
+    {
+      "word": "Doch,",
+      "start": 267.8,
+      "end": 268.38
+    },
+    {
+      "word": "sagte",
+      "start": 268.7,
+      "end": 268.88
+    },
+    {
+      "word": "Eduard,",
+      "start": 268.88,
+      "end": 269.54
+    },
+    {
+      "word": "das",
+      "start": 269.98,
+      "end": 270.28
+    },
+    {
+      "word": "muss",
+      "start": 270.28,
+      "end": 270.54
+    },
+    {
+      "word": "sein.",
+      "start": 270.54,
+      "end": 270.94
+    },
+    {
+      "word": "Block",
+      "start": 272.3,
+      "end": 272.52
+    },
+    {
+      "word": "Ziller",
+      "start": 272.52,
+      "end": 272.8
+    },
+    {
+      "word": "drehte",
+      "start": 272.8,
+      "end": 273.14
+    },
+    {
+      "word": "sich",
+      "start": 273.14,
+      "end": 273.32
+    },
+    {
+      "word": "wieder",
+      "start": 273.32,
+      "end": 273.6
+    },
+    {
+      "word": "um",
+      "start": 273.6,
+      "end": 273.96
+    },
+    {
+      "word": "und",
+      "start": 273.96,
+      "end": 274.26
+    },
+    {
+      "word": "blickte",
+      "start": 274.26,
+      "end": 274.64
+    },
+    {
+      "word": "wütend",
+      "start": 274.64,
+      "end": 275.06
+    },
+    {
+      "word": "die",
+      "start": 275.06,
+      "end": 275.28
+    },
+    {
+      "word": "Jungs",
+      "start": 275.28,
+      "end": 275.5
+    },
+    {
+      "word": "an.",
+      "start": 275.5,
+      "end": 276.1
+    },
+    {
+      "word": "Seven!",
+      "start": 277.18,
+      "end": 277.84
+    },
+    {
+      "word": "schrie",
+      "start": 278.56,
+      "end": 278.7
+    },
+    {
+      "word": "Eduard.",
+      "start": 278.7,
+      "end": 279.26
+    },
+    {
+      "word": "Dann",
+      "start": 280.18,
+      "end": 280.42
+    },
+    {
+      "word": "machte",
+      "start": 280.42,
+      "end": 280.76
+    },
+    {
+      "word": "er",
+      "start": 280.76,
+      "end": 280.92
+    },
+    {
+      "word": "die",
+      "start": 280.92,
+      "end": 281.06
+    },
+    {
+      "word": "Six",
+      "start": 281.06,
+      "end": 281.4
+    },
+    {
+      "word": "-Seven",
+      "start": 281.4,
+      "end": 281.64
+    },
+    {
+      "word": "-Bewegung,",
+      "start": 281.64,
+      "end": 282.48
+    },
+    {
+      "word": "tanzte",
+      "start": 282.72,
+      "end": 283.24
+    },
+    {
+      "word": "und",
+      "start": 283.24,
+      "end": 283.48
+    },
+    {
+      "word": "sang",
+      "start": 283.48,
+      "end": 283.82
+    },
+    {
+      "word": "Six",
+      "start": 283.82,
+      "end": 285.02
+    },
+    {
+      "word": "-Seven,",
+      "start": 285.02,
+      "end": 285.72
+    },
+    {
+      "word": "Six",
+      "start": 286.08,
+      "end": 286.34
+    },
+    {
+      "word": "-Seven.",
+      "start": 286.34,
+      "end": 287.12
+    },
+    {
+      "word": "Das",
+      "start": 288.08,
+      "end": 288.46
+    },
+    {
+      "word": "machte",
+      "start": 288.46,
+      "end": 288.82
+    },
+    {
+      "word": "Block",
+      "start": 288.82,
+      "end": 289.04
+    },
+    {
+      "word": "Ziller",
+      "start": 289.04,
+      "end": 289.32
+    },
+    {
+      "word": "so",
+      "start": 289.32,
+      "end": 289.7
+    },
+    {
+      "word": "wütend,",
+      "start": 289.7,
+      "end": 290.24
+    },
+    {
+      "word": "dass",
+      "start": 290.5,
+      "end": 290.64
+    },
+    {
+      "word": "es",
+      "start": 290.64,
+      "end": 290.8
+    },
+    {
+      "word": "sich",
+      "start": 290.8,
+      "end": 290.94
+    },
+    {
+      "word": "wieder",
+      "start": 290.94,
+      "end": 291.24
+    },
+    {
+      "word": "in",
+      "start": 291.24,
+      "end": 291.48
+    },
+    {
+      "word": "Richtung",
+      "start": 291.48,
+      "end": 291.74
+    },
+    {
+      "word": "Hügel",
+      "start": 291.74,
+      "end": 292.14
+    },
+    {
+      "word": "bewegte.",
+      "start": 292.14,
+      "end": 293.36
+    },
+    {
+      "word": "Also",
+      "start": 293.58,
+      "end": 293.9
+    },
+    {
+      "word": "genau",
+      "start": 293.9,
+      "end": 294.36
+    },
+    {
+      "word": "dahin,",
+      "start": 294.36,
+      "end": 294.96
+    },
+    {
+      "word": "wo",
+      "start": 294.96,
+      "end": 295.12
+    },
+    {
+      "word": "die",
+      "start": 295.12,
+      "end": 295.36
+    },
+    {
+      "word": "Jungs",
+      "start": 295.36,
+      "end": 295.62
+    },
+    {
+      "word": "es",
+      "start": 295.62,
+      "end": 295.92
+    },
+    {
+      "word": "haben",
+      "start": 295.92,
+      "end": 296.16
+    },
+    {
+      "word": "wollten.",
+      "start": 296.16,
+      "end": 296.5
+    },
+    {
+      "word": "Und",
+      "start": 296.5,
+      "end": 297.78
+    },
+    {
+      "word": "in",
+      "start": 297.78,
+      "end": 298.04
+    },
+    {
+      "word": "wenigen",
+      "start": 298.04,
+      "end": 298.42
+    },
+    {
+      "word": "Augenblicken",
+      "start": 298.42,
+      "end": 299.08
+    },
+    {
+      "word": "stand",
+      "start": 299.08,
+      "end": 299.38
+    },
+    {
+      "word": "es",
+      "start": 299.38,
+      "end": 299.62
+    },
+    {
+      "word": "so",
+      "start": 299.62,
+      "end": 299.96
+    },
+    {
+      "word": "nah,",
+      "start": 299.96,
+      "end": 300.26
+    },
+    {
+      "word": "dass",
+      "start": 300.78,
+      "end": 300.92
+    },
+    {
+      "word": "sein",
+      "start": 300.92,
+      "end": 301.14
+    },
+    {
+      "word": "Schatten",
+      "start": 301.14,
+      "end": 301.5
+    },
+    {
+      "word": "den",
+      "start": 301.5,
+      "end": 301.78
+    },
+    {
+      "word": "halben",
+      "start": 301.78,
+      "end": 302.12
+    },
+    {
+      "word": "Himmel",
+      "start": 302.12,
+      "end": 302.44
+    },
+    {
+      "word": "verdeckte.",
+      "start": 302.44,
+      "end": 303.12
+    },
+    {
+      "word": "Das",
+      "start": 304.02,
+      "end": 304.26
+    },
+    {
+      "word": "violette",
+      "start": 304.26,
+      "end": 304.7
+    },
+    {
+      "word": "Herz",
+      "start": 304.7,
+      "end": 305.12
+    },
+    {
+      "word": "pulsierte",
+      "start": 305.12,
+      "end": 305.76
+    },
+    {
+      "word": "wild.",
+      "start": 305.76,
+      "end": 306.2
+    },
+    {
+      "word": "Eduard",
+      "start": 307.36,
+      "end": 307.82
+    },
+    {
+      "word": "warf",
+      "start": 307.82,
+      "end": 308.14
+    },
+    {
+      "word": "sich",
+      "start": 308.14,
+      "end": 308.28
+    },
+    {
+      "word": "hinter",
+      "start": 308.28,
+      "end": 308.54
+    },
+    {
+      "word": "einen",
+      "start": 308.54,
+      "end": 308.8
+    },
+    {
+      "word": "Felsen.",
+      "start": 308.8,
+      "end": 310.04
+    },
+    {
+      "word": "Block",
+      "start": 310.28,
+      "end": 310.46
+    },
+    {
+      "word": "Ziller",
+      "start": 310.46,
+      "end": 310.68
+    },
+    {
+      "word": "blieb",
+      "start": 310.68,
+      "end": 310.96
+    },
+    {
+      "word": "stehen.",
+      "start": 310.96,
+      "end": 311.4
+    },
+    {
+      "word": "Direkt",
+      "start": 312.12,
+      "end": 312.62
+    },
+    {
+      "word": "vor",
+      "start": 312.62,
+      "end": 312.86
+    },
+    {
+      "word": "dem",
+      "start": 312.86,
+      "end": 313.04
+    },
+    {
+      "word": "Portal.",
+      "start": 313.04,
+      "end": 313.54
+    },
+    {
+      "word": "Sein",
+      "start": 314.44,
+      "end": 314.64
+    },
+    {
+      "word": "Herz",
+      "start": 314.64,
+      "end": 315.0
+    },
+    {
+      "word": "leuchtete.",
+      "start": 315.0,
+      "end": 315.72
+    },
+    {
+      "word": "Und",
+      "start": 316.2,
+      "end": 316.38
+    },
+    {
+      "word": "das",
+      "start": 316.38,
+      "end": 316.7
+    },
+    {
+      "word": "andere",
+      "start": 316.7,
+      "end": 316.94
+    },
+    {
+      "word": "Leuchten,",
+      "start": 316.94,
+      "end": 317.58
+    },
+    {
+      "word": "das",
+      "start": 317.86,
+      "end": 318.08
+    },
+    {
+      "word": "schwache",
+      "start": 318.08,
+      "end": 318.42
+    },
+    {
+      "word": "Violett",
+      "start": 318.42,
+      "end": 318.88
+    },
+    {
+      "word": "von",
+      "start": 318.88,
+      "end": 319.08
+    },
+    {
+      "word": "der",
+      "start": 319.08,
+      "end": 319.3
+    },
+    {
+      "word": "anderen",
+      "start": 319.3,
+      "end": 319.58
+    },
+    {
+      "word": "Seite,",
+      "start": 319.58,
+      "end": 320.08
+    },
+    {
+      "word": "flackerte",
+      "start": 320.68,
+      "end": 321.04
+    },
+    {
+      "word": "dagegen",
+      "start": 321.04,
+      "end": 321.46
+    },
+    {
+      "word": "an.",
+      "start": 321.46,
+      "end": 321.94
+    },
+    {
+      "word": "Peter",
+      "start": 322.78,
+      "end": 323.4
+    },
+    {
+      "word": "preste",
+      "start": 323.4,
+      "end": 323.82
+    },
+    {
+      "word": "die",
+      "start": 323.82,
+      "end": 324.0
+    },
+    {
+      "word": "Hände",
+      "start": 324.0,
+      "end": 324.26
+    },
+    {
+      "word": "gegen",
+      "start": 324.26,
+      "end": 324.54
+    },
+    {
+      "word": "den",
+      "start": 324.54,
+      "end": 324.78
+    },
+    {
+      "word": "schimmernden",
+      "start": 324.78,
+      "end": 325.32
+    },
+    {
+      "word": "Riss.",
+      "start": 325.32,
+      "end": 325.92
+    },
+    {
+      "word": "Er",
+      "start": 326.42,
+      "end": 326.58
+    },
+    {
+      "word": "konnte",
+      "start": 326.58,
+      "end": 326.84
+    },
+    {
+      "word": "das",
+      "start": 326.84,
+      "end": 327.12
+    },
+    {
+      "word": "Kinderzimmer",
+      "start": 327.12,
+      "end": 327.74
+    },
+    {
+      "word": "spüren.",
+      "start": 327.74,
+      "end": 328.54
+    },
+    {
+      "word": "Warm",
+      "start": 329.0,
+      "end": 329.4
+    },
+    {
+      "word": "und",
+      "start": 329.4,
+      "end": 329.92
+    },
+    {
+      "word": "weich",
+      "start": 329.92,
+      "end": 330.6
+    },
+    {
+      "word": "und",
+      "start": 330.6,
+      "end": 330.94
+    },
+    {
+      "word": "nach",
+      "start": 330.94,
+      "end": 331.16
+    },
+    {
+      "word": "Apfelsaft",
+      "start": 331.16,
+      "end": 331.82
+    },
+    {
+      "word": "riechend.",
+      "start": 331.82,
+      "end": 332.34
+    },
+    {
+      "word": "Er",
+      "start": 333.32,
+      "end": 333.54
+    },
+    {
+      "word": "konnte",
+      "start": 333.54,
+      "end": 333.84
+    },
+    {
+      "word": "Elisaveta",
+      "start": 333.84,
+      "end": 334.7
+    },
+    {
+      "word": "spüren,",
+      "start": 334.7,
+      "end": 335.46
+    },
+    {
+      "word": "wie",
+      "start": 335.66,
+      "end": 335.84
+    },
+    {
+      "word": "sie",
+      "start": 335.84,
+      "end": 336.02
+    },
+    {
+      "word": "auf",
+      "start": 336.02,
+      "end": 336.22
+    },
+    {
+      "word": "dem",
+      "start": 336.22,
+      "end": 336.4
+    },
+    {
+      "word": "Teppich",
+      "start": 336.4,
+      "end": 336.76
+    },
+    {
+      "word": "saß,",
+      "start": 336.76,
+      "end": 337.38
+    },
+    {
+      "word": "mit",
+      "start": 337.62,
+      "end": 337.76
+    },
+    {
+      "word": "ihrem",
+      "start": 337.76,
+      "end": 338.06
+    },
+    {
+      "word": "Kuschelpferd.",
+      "start": 338.06,
+      "end": 339.02
+    },
+    {
+      "word": "Er",
+      "start": 340.02,
+      "end": 340.3
+    },
+    {
+      "word": "dachte",
+      "start": 340.3,
+      "end": 340.52
+    },
+    {
+      "word": "an",
+      "start": 340.52,
+      "end": 340.74
+    },
+    {
+      "word": "den",
+      "start": 340.74,
+      "end": 340.9
+    },
+    {
+      "word": "Moment,",
+      "start": 340.9,
+      "end": 341.34
+    },
+    {
+      "word": "als",
+      "start": 341.4,
+      "end": 341.56
+    },
+    {
+      "word": "sie",
+      "start": 341.56,
+      "end": 341.72
+    },
+    {
+      "word": "geboren",
+      "start": 341.72,
+      "end": 342.28
+    },
+    {
+      "word": "wurde,",
+      "start": 342.28,
+      "end": 342.6
+    },
+    {
+      "word": "wie",
+      "start": 343.36,
+      "end": 343.62
+    },
+    {
+      "word": "lustig",
+      "start": 343.62,
+      "end": 344.2
+    },
+    {
+      "word": "und",
+      "start": 344.2,
+      "end": 344.4
+    },
+    {
+      "word": "herzlich",
+      "start": 344.4,
+      "end": 344.84
+    },
+    {
+      "word": "sie",
+      "start": 344.84,
+      "end": 345.04
+    },
+    {
+      "word": "immer",
+      "start": 345.04,
+      "end": 345.3
+    },
+    {
+      "word": "war.",
+      "start": 345.3,
+      "end": 345.76
+    },
+    {
+      "word": "Und",
+      "start": 345.76,
+      "end": 346.52
+    },
+    {
+      "word": "wie",
+      "start": 346.52,
+      "end": 346.76
+    },
+    {
+      "word": "Peter",
+      "start": 346.76,
+      "end": 347.18
+    },
+    {
+      "word": "und",
+      "start": 347.18,
+      "end": 347.48
+    },
+    {
+      "word": "Eduard",
+      "start": 347.48,
+      "end": 347.98
+    },
+    {
+      "word": "sie",
+      "start": 347.98,
+      "end": 348.16
+    },
+    {
+      "word": "zum",
+      "start": 348.16,
+      "end": 348.46
+    },
+    {
+      "word": "ersten",
+      "start": 348.46,
+      "end": 348.82
+    },
+    {
+      "word": "Mal",
+      "start": 348.82,
+      "end": 349.1
+    },
+    {
+      "word": "halten",
+      "start": 349.1,
+      "end": 349.46
+    },
+    {
+      "word": "durften,",
+      "start": 349.46,
+      "end": 350.14
+    },
+    {
+      "word": "gleich",
+      "start": 350.62,
+      "end": 350.84
+    },
+    {
+      "word": "am",
+      "start": 350.84,
+      "end": 351.08
+    },
+    {
+      "word": "ersten",
+      "start": 351.08,
+      "end": 351.48
+    },
+    {
+      "word": "Tag",
+      "start": 351.48,
+      "end": 351.78
+    },
+    {
+      "word": "ihrer",
+      "start": 351.78,
+      "end": 352.04
+    },
+    {
+      "word": "Geburt.",
+      "start": 352.04,
+      "end": 352.86
+    },
+    {
+      "word": "Vorsichtig,",
+      "start": 353.54,
+      "end": 354.18
+    },
+    {
+      "word": "mit",
+      "start": 354.66,
+      "end": 354.88
+    },
+    {
+      "word": "beiden",
+      "start": 354.88,
+      "end": 355.22
+    },
+    {
+      "word": "Händen.",
+      "start": 355.22,
+      "end": 356.4
+    },
+    {
+      "word": "Und",
+      "start": 356.62,
+      "end": 356.92
+    },
+    {
+      "word": "wie",
+      "start": 356.92,
+      "end": 357.06
+    },
+    {
+      "word": "sie",
+      "start": 357.06,
+      "end": 357.24
+    },
+    {
+      "word": "aufgehört",
+      "start": 357.24,
+      "end": 357.8
+    },
+    {
+      "word": "hatte",
+      "start": 357.8,
+      "end": 358.06
+    },
+    {
+      "word": "zu",
+      "start": 358.06,
+      "end": 358.32
+    },
+    {
+      "word": "schreien.",
+      "start": 358.32,
+      "end": 359.3
+    },
+    {
+      "word": "Einfach",
+      "start": 359.46,
+      "end": 359.92
+    },
+    {
+      "word": "so.",
+      "start": 359.92,
+      "end": 360.6
+    },
+    {
+      "word": "Als",
+      "start": 361.24,
+      "end": 361.44
+    },
+    {
+      "word": "hätte",
+      "start": 361.44,
+      "end": 361.64
+    },
+    {
+      "word": "sie",
+      "start": 361.64,
+      "end": 361.88
+    },
+    {
+      "word": "gewusst,",
+      "start": 361.88,
+      "end": 362.4
+    },
+    {
+      "word": "dass",
+      "start": 362.6,
+      "end": 362.72
+    },
+    {
+      "word": "sie",
+      "start": 362.72,
+      "end": 362.88
+    },
+    {
+      "word": "sicher",
+      "start": 362.88,
+      "end": 363.22
+    },
+    {
+      "word": "war.",
+      "start": 363.22,
+      "end": 363.66
+    },
+    {
+      "word": "Lisa!",
+      "start": 365.26,
+      "end": 365.94
+    },
+    {
+      "word": "schrie",
+      "start": 366.74,
+      "end": 366.98
+    },
+    {
+      "word": "Peter.",
+      "start": 366.98,
+      "end": 367.38
+    },
+    {
+      "word": "Nicht",
+      "start": 368.16,
+      "end": 368.44
+    },
+    {
+      "word": "nur",
+      "start": 368.44,
+      "end": 368.58
+    },
+    {
+      "word": "mit",
+      "start": 368.58,
+      "end": 368.74
+    },
+    {
+      "word": "der",
+      "start": 368.74,
+      "end": 368.96
+    },
+    {
+      "word": "Stimme.",
+      "start": 368.96,
+      "end": 369.32
+    },
+    {
+      "word": "Mit",
+      "start": 369.74,
+      "end": 370.08
+    },
+    {
+      "word": "allem,",
+      "start": 370.08,
+      "end": 370.38
+    },
+    {
+      "word": "was",
+      "start": 370.38,
+      "end": 370.58
+    },
+    {
+      "word": "er",
+      "start": 370.58,
+      "end": 370.8
+    },
+    {
+      "word": "hatte.",
+      "start": 370.8,
+      "end": 371.08
+    },
+    {
+      "word": "Leg",
+      "start": 372.28,
+      "end": 372.5
+    },
+    {
+      "word": "es",
+      "start": 372.5,
+      "end": 372.74
+    },
+    {
+      "word": "auf",
+      "start": 372.74,
+      "end": 372.96
+    },
+    {
+      "word": "den",
+      "start": 372.96,
+      "end": 373.16
+    },
+    {
+      "word": "Bildschirm.",
+      "start": 373.16,
+      "end": 373.86
+    },
+    {
+      "word": "Auf",
+      "start": 374.4,
+      "end": 374.6
+    },
+    {
+      "word": "das",
+      "start": 374.6,
+      "end": 374.86
+    },
+    {
+      "word": "Herz.",
+      "start": 374.86,
+      "end": 375.34
+    },
+    {
+      "word": "Bitte!",
+      "start": 376.24,
+      "end": 376.62
+    },
+    {
+      "word": "Seine",
+      "start": 378.0,
+      "end": 378.38
+    },
+    {
+      "word": "Stimme",
+      "start": 378.38,
+      "end": 378.64
+    },
+    {
+      "word": "brach.",
+      "start": 378.64,
+      "end": 379.22
+    },
+    {
+      "word": "Der",
+      "start": 379.98,
+      "end": 380.12
+    },
+    {
+      "word": "Wind",
+      "start": 380.12,
+      "end": 380.52
+    },
+    {
+      "word": "trug",
+      "start": 380.52,
+      "end": 380.84
+    },
+    {
+      "word": "sie",
+      "start": 380.84,
+      "end": 381.04
+    },
+    {
+      "word": "davon.",
+      "start": 381.04,
+      "end": 381.46
+    },
+    {
+      "word": "Block",
+      "start": 382.86,
+      "end": 383.04
+    },
+    {
+      "word": "Ziller",
+      "start": 383.04,
+      "end": 383.38
+    },
+    {
+      "word": "hob",
+      "start": 383.38,
+      "end": 383.72
+    },
+    {
+      "word": "seinen",
+      "start": 383.72,
+      "end": 384.06
+    },
+    {
+      "word": "riesigen",
+      "start": 384.06,
+      "end": 384.74
+    },
+    {
+      "word": "Fuß.",
+      "start": 384.74,
+      "end": 385.1
+    }
+  ]
+}
