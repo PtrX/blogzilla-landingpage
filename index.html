@@ -612,8 +612,21 @@
     0%,100%{box-shadow:0 0 0 0 rgba(255,122,26,.7);transform:scale(1)}
     50%{box-shadow:0 0 0 8px rgba(255,122,26,0);transform:scale(1.04)}
   }
+  .merch-tabs{margin-top:64px}
+  .merch-tab-title{
+    font-family:'Bungee',sans-serif;font-size:24px;letter-spacing:.04em;
+    margin:0 0 8px;
+    display:flex;align-items:center;gap:14px;
+  }
+  .merch-tab-num{
+    font-family:'Press Start 2P',monospace;font-size:14px;
+    color:#0a0612;background:var(--ember);padding:8px 12px;
+  }
+  .merch-tab-sub{
+    color:var(--ink-dim);font-size:15px;margin:0 0 0 0;font-style:italic;
+  }
   .merch-frame{
-    position:relative;margin-top:48px;
+    position:relative;margin-top:24px;
     border:1px solid var(--line-strong);
     background:#0a0612;
     overflow:hidden;
@@ -1076,6 +1089,10 @@
       <p class="section-lede">Plüsch‑Blockzilla mit leuchtendem Bedrock‑Herz. T‑Shirts, Hoodies, Caps — sogar ein Bauset für die City‑Attack‑Szene. Bald in deinem Kinderzimmer.</p>
     </div>
 
+    <div class="merch-tabs reveal">
+      <h3 class="merch-tab-title"><span class="merch-tab-num">01</span> DROP — Lifestyle &amp; Toys</h3>
+    </div>
+
     <div class="merch-frame reveal">
       <img src="assets/merch_lineup.png" alt="Blockzilla Merch‑Linie: T-Shirts, Hoodies, Plüschtiere, Bausets, Caps und mehr" />
       <div class="merch-glow"></div>
@@ -1104,13 +1121,71 @@
       </li>
       <li>
         <span class="merch-tag">ACCESSORIES</span>
-        <h4>Caps, Beanies, Tassen</h4>
-        <p>Bedrock‑schwarz mit Pixel‑Stick. Tasse mit „Bauen. Staunen. Blockzilla." — heißt jeden Morgen Hallo.</p>
+        <h4>Tassen, Caps &amp; Trinkflaschen</h4>
+        <p>Keramik, Reise‑Mug und matt‑schwarze Trinkflasche. Bedrock‑optik, leuchtendes Pixel‑Herz, „Bauen. Staunen. Blockzilla."</p>
       </li>
       <li>
-        <span class="merch-tag">SCHULE</span>
-        <h4>Rucksack &amp; Stickerset</h4>
-        <p>Eduard‑blauer Rucksack für den ersten Schultag. Stickerset, das jedes Heft zur Bedrock‑Zone macht.</p>
+        <span class="merch-tag">GAMING</span>
+        <h4>Mauspad, Tastatur &amp; Laptop‑Sticker</h4>
+        <p>XXL‑Mauspad mit Blockzilla, RGB‑Keyboard, Laptop‑Skin. Für Gamer mit Bedrock‑Setup.</p>
+      </li>
+      <li>
+        <span class="merch-tag">HOME</span>
+        <h4>Kissen, Socken &amp; Sportbeutel</h4>
+        <p>Pixel‑Herz‑Socken, Kuschelkissen für die Couch, schwarzer Sporttasche für Training oder Schwimmbad.</p>
+      </li>
+      <li>
+        <span class="merch-tag">MOBILE</span>
+        <h4>Phone Cases &amp; Notizbuch</h4>
+        <p>iPhone‑Case mit Pixel‑Steve oder Bedrock‑Herz, Spiral‑Notizbuch — für Hausaufgaben mit Stil.</p>
+      </li>
+      <li>
+        <span class="merch-tag">GIFT</span>
+        <h4>Mini‑Figures Set &amp; Gift Card</h4>
+        <p>5er‑Set Mini‑Figures (Peter, Eduard, Mama, Elisaweta, Blockzilla). Geschenkkarte für alles andere.</p>
+      </li>
+    </ul>
+
+    <div class="merch-tabs reveal" style="margin-top:80px">
+      <h3 class="merch-tab-title"><span class="merch-tab-num">02</span> DROP — Back to School</h3>
+      <p class="merch-tab-sub">Cool. Kreativ. Einzigartig. — Alles für den Schulalltag, das Kinderzimmer und für unterwegs.</p>
+    </div>
+
+    <div class="merch-frame reveal">
+      <img src="assets/merch_school.png" alt="Blockzilla Schul‑Kollektion: Rucksack, Brotdose, Federmäppchen, Trinkflasche, Collegeblock, Stundenplan, Stifte und mehr" />
+      <div class="merch-glow"></div>
+    </div>
+
+    <ul class="merch-grid reveal">
+      <li>
+        <span class="merch-tag">SCHULTASCHE</span>
+        <h4>Rucksack &amp; Turnbeutel</h4>
+        <p>Rucksack für Schule &amp; Freizeit, Turnbeutel für Sport, Spaß &amp; Style. Mit pulsierendem Pixel‑Herz.</p>
+      </li>
+      <li>
+        <span class="merch-tag">PAUSENBROT</span>
+        <h4>Brotdose &amp; Trinkflasche</h4>
+        <p>„Blockzilla Energy" Brotdose. Edelstahl‑Trinkflasche — hydriert &amp; ready für jedes Abenteuer.</p>
+      </li>
+      <li>
+        <span class="merch-tag">SCHREIBTISCH</span>
+        <h4>Federmäppchen, Stifte &amp; Radierer</h4>
+        <p>Alles dabei, immer bereit. Stifte zum Schreiben, Zeichnen, Entdecken. Radierer: „Fehler? Kein Problem!"</p>
+      </li>
+      <li>
+        <span class="merch-tag">PLANUNG</span>
+        <h4>Collegeblock &amp; Stundenplan</h4>
+        <p>Notizen, Ideen, Pläne. Stundenplan mit Charakteren — Planen, Schaffen, Gewinnen.</p>
+      </li>
+      <li>
+        <span class="merch-tag">DESK SETUP</span>
+        <h4>Schreibtischunterlage &amp; Stiftehalter</h4>
+        <p>Für epische Ideen. Stiftehalter — Ordnung mit Power. Snackbeutel für die Pause.</p>
+      </li>
+      <li>
+        <span class="merch-tag">EXTRAS</span>
+        <h4>Aufnäher, Sticker, Armband</h4>
+        <p>Aufnäher zum Aufbügeln. Sticker‑Set zeig deinen Style. Armband, Schlüsselanhänger und Nachtlicht für dein Zimmer.</p>
       </li>
     </ul>
 
