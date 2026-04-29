@@ -279,7 +279,8 @@
         then uncomment the script tag below.
     -->
 
-    <!-- <script type="module" src="game/assets/index.js"></script> -->
+    <link rel="stylesheet" href="game/assets/index.css" />
+    <script type="module" src="game/assets/index.js"></script>
 
   </div>
 </main>
@@ -288,6 +289,13 @@
 
 <script>
   // Hide splash after a beat (replace this with your game's "ready" event)
+  window.addEventListener('message', (e)=>{
+    if(e.data?.type === 'game-ready'){
+      const sp = document.getElementById('splash');
+      if(sp) sp.classList.add('hide');
+    }
+  });
+
   window.addEventListener('load', ()=>{
     setTimeout(()=>{
       const sp = document.getElementById('splash');
