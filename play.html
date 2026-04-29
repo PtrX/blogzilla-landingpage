@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Blockzilla Runner — Play</title>
+<meta name="description" content="Blockzilla Runner — der Browser‑Runner zur Blockzilla‑Folge. Spring ins Portal." />
+<link rel="icon" href="assets/favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Press+Start+2P&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --ink:#f6f2ea;
+    --ink-dim:#a89aa8;
+    --line:rgba(168,85,247,.18);
+    --line-strong:rgba(168,85,247,.4);
+    --violet:#a855f7;
+    --violet-bright:#c084fc;
+    --violet-deep:#7e22ce;
+    --ember:#ff7a1a;
+    --ember-soft:#ffb066;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    font-family:'Press Start 2P','Courier New',monospace;
+    background:#0a0612;color:var(--ink);
+    overflow:hidden;
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  /* voxel grid backdrop — same DNA as main site */
+  .grid-bg{
+    position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.35;
+    background-image:
+      linear-gradient(rgba(168,85,247,.08) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(168,85,247,.08) 1px, transparent 1px);
+    background-size:40px 40px;
+    mask-image:radial-gradient(ellipse 100% 60% at 50% 40%, #000, transparent);
+  }
+  .glow-bg{
+    position:fixed;inset:0;pointer-events:none;z-index:0;
+    background:
+      radial-gradient(circle 380px at 22% 38%, rgba(168,85,247,.18), transparent 70%),
+      radial-gradient(circle 280px at 78% 30%, rgba(255,122,26,.14), transparent 70%);
+  }
+
+  /* top bar */
+  .topbar{
+    position:fixed;top:0;left:0;right:0;z-index:50;
+    display:flex;justify-content:space-between;align-items:center;
+    padding:14px 22px;
+    backdrop-filter:blur(10px);
+    background:rgba(10,6,18,.6);
+    border-bottom:1px solid var(--line);
+  }
+  .back-link{
+    display:inline-flex;align-items:center;gap:10px;
+    font-family:'Press Start 2P',monospace;font-size:10px;letter-spacing:.15em;
+    color:var(--ink);text-decoration:none;
+    padding:8px 12px;border:1px solid var(--line-strong);
+    transition:background .15s,transform .15s;
+  }
+  .back-link:hover{background:rgba(168,85,247,.12);transform:translate(-2px,-2px);box-shadow:2px 2px 0 var(--violet-deep)}
+  .brand{
+    display:flex;align-items:center;gap:12px;
+    font-family:'Bungee',sans-serif;font-size:14px;letter-spacing:.04em;
+  }
+  .brand .heart{
+    display:grid;grid-template-columns:repeat(4,4px);grid-gap:1px;
+  }
+  .brand .heart i{
+    width:4px;height:4px;background:transparent;
+  }
+  .brand .heart i.lit{background:var(--violet-bright);box-shadow:0 0 4px var(--violet-bright)}
+  .brand .em{color:var(--violet-bright)}
+  .meta{
+    font-family:'Press Start 2P',monospace;font-size:8px;letter-spacing:.2em;
+    color:var(--ember);
+  }
+
+  /* main stage */
+  .stage{
+    position:relative;z-index:1;
+    height:100vh;
+    display:grid;place-items:center;
+    padding:80px 22px 22px;
+  }
+  /* game host */
+  #game{
+    position:relative;
+    width:min(100%, 1280px);
+    aspect-ratio:16/9;
+    max-height:calc(100vh - 110px);
+    background:#1a0d2e;
+    border:1px solid var(--line-strong);
+    box-shadow:0 24px 60px -20px rgba(168,85,247,.5), 0 0 0 1px rgba(168,85,247,.15);
+    overflow:hidden;
+    image-rendering:pixelated;
+    display:grid;place-items:center;
+  }
+  /* canvas the game injects gets sized to fill */
+  #game canvas{
+    width:100% !important;height:100% !important;
+    image-rendering:pixelated;
+    display:block;
+  }
+
+  /* loading splash */
+  .splash{
+    position:absolute;inset:0;display:grid;place-items:center;
+    background:#1a0d2e;
+    background-image:
+      linear-gradient(rgba(168,85,247,.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(168,85,247,.06) 1px, transparent 1px);
+    background-size:32px 32px;
+    z-index:5;
+    transition:opacity .4s ease;
+  }
+  .splash.hide{opacity:0;pointer-events:none}
+  .splash::before, .splash::after{
+    content:"";position:absolute;border-radius:50%;
+    filter:blur(40px);
+  }
+  .splash::before{
+    width:380px;height:380px;background:rgba(168,85,247,.25);
+    top:30%;left:18%;
+  }
+  .splash::after{
+    width:280px;height:280px;background:rgba(255,122,26,.18);
+    top:18%;right:15%;
+  }
+  .splash-inner{
+    position:relative;z-index:1;text-align:center;
+    display:flex;flex-direction:column;align-items:center;gap:24px;
+  }
+  .splash-title{
+    font-family:'Bungee',sans-serif;font-size:clamp(36px,6vw,80px);
+    color:var(--ember);letter-spacing:.04em;line-height:1;
+    text-shadow:4px 4px 0 #000;
+  }
+  .splash-sub{
+    font-family:'Press Start 2P',monospace;font-size:clamp(14px,2vw,22px);
+    color:var(--violet-bright);letter-spacing:.18em;
+    background:rgba(192,132,252,.12);padding:10px 20px;
+    border:2px solid var(--violet-bright);
+    box-shadow:0 0 24px rgba(192,132,252,.4);
+  }
+  .splash-msg{
+    font-size:11px;color:var(--ink-dim);letter-spacing:.18em;
+    margin-top:12px;
+  }
+
+  /* loading bar */
+  .loadbar{
+    width:280px;height:14px;
+    border:2px solid var(--violet);
+    background:rgba(10,6,18,.5);
+    position:relative;overflow:hidden;
+  }
+  .loadbar i{
+    position:absolute;left:0;top:0;bottom:0;width:0%;
+    background:linear-gradient(90deg, var(--violet), var(--violet-bright), var(--ember));
+    animation:loadFill 2.4s ease-out forwards;
+    box-shadow:0 0 12px var(--violet-bright);
+  }
+  @keyframes loadFill{
+    0%{width:0%}
+    100%{width:100%}
+  }
+
+  /* mobile gate */
+  .mobile-gate{
+    display:none;
+    position:absolute;inset:0;z-index:6;
+    background:rgba(10,6,18,.94);
+    place-items:center;text-align:center;padding:24px;
+  }
+  .mobile-gate.show{display:grid}
+  .mobile-gate-card{
+    max-width:380px;
+    border:1px solid var(--ember);
+    padding:24px;
+    background:rgba(255,122,26,.06);
+  }
+  .mobile-gate-card h3{
+    font-family:'Bungee',sans-serif;font-size:24px;
+    color:var(--ember);letter-spacing:.04em;margin-bottom:14px;
+  }
+  .mobile-gate-card p{
+    font-size:11px;color:var(--ink);line-height:1.6;letter-spacing:.05em;
+    margin-bottom:18px;
+  }
+  .mobile-gate-card button{
+    font-family:'Press Start 2P',monospace;font-size:9px;letter-spacing:.18em;
+    padding:10px 14px;background:transparent;color:var(--violet-bright);
+    border:1px solid var(--violet-bright);cursor:pointer;
+  }
+  .mobile-gate-card button:hover{background:rgba(168,85,247,.15)}
+
+  /* tiny help footer */
+  .footer-hint{
+    position:fixed;bottom:14px;left:50%;transform:translateX(-50%);
+    font-family:'Press Start 2P',monospace;font-size:8px;letter-spacing:.2em;
+    color:var(--ink-dim);z-index:10;
+    opacity:.6;
+  }
+
+  /* keyboard reveal animation */
+  @keyframes blink{
+    0%,49%{opacity:1}
+    50%,100%{opacity:.4}
+  }
+  .blink{animation:blink 1s steps(1) infinite}
+</style>
+</head>
+<body>
+
+<div class="grid-bg" aria-hidden="true"></div>
+<div class="glow-bg" aria-hidden="true"></div>
+
+<div class="topbar">
+  <a class="back-link" href="index.html">← ZURÜCK</a>
+  <div class="brand">
+    <div class="heart" aria-hidden="true">
+      <i class="lit"></i><i></i><i></i><i class="lit"></i>
+      <i></i><i class="lit"></i><i class="lit"></i><i></i>
+      <i class="lit"></i><i></i><i></i><i class="lit"></i>
+      <i></i><i class="lit"></i><i class="lit"></i><i></i>
+    </div>
+    <span>BLOCKZILLA <span class="em">RUNNER</span></span>
+  </div>
+  <span class="meta">PROTOTYP · v0.1</span>
+</div>
+
+<main class="stage">
+  <div id="game" aria-label="Blockzilla Runner Spielfeld">
+    <!-- Splash screen, hidden once the game boots -->
+    <div class="splash" id="splash">
+      <div class="splash-inner">
+        <div class="splash-title">BLOCKZILLA</div>
+        <div class="splash-sub">RUNNER</div>
+        <div class="loadbar"><i></i></div>
+        <div class="splash-msg blink">// SPIEL WIRD GELADEN</div>
+      </div>
+    </div>
+
+    <!-- Mobile gate — appears on small screens -->
+    <div class="mobile-gate" id="mobileGate">
+      <div class="mobile-gate-card">
+        <h3>⌨ Desktop empfohlen</h3>
+        <p>Blockzilla Runner spielt sich am besten mit Tastatur. Auf dem Desktop sind alle Steuerungen verfügbar — Mobile‑Touch‑Controls kommen bald.</p>
+        <button id="playAnyway">TROTZDEM SPIELEN</button>
+      </div>
+    </div>
+
+    <!--
+      ============================================================
+      DROP YOUR PHASER BUILD HERE
+      ============================================================
+      The compiled Vite output (dist/) typically produces:
+        - dist/assets/index-XXXX.js
+        - dist/assets/index-XXXX.css
+        - dist/index.html (we don't need this, just the assets)
+
+      Option A — copy build into /game/ folder:
+        <link rel="stylesheet" href="game/assets/index.css" />
+        <script type="module" src="game/assets/index.js"></script>
+        Make sure your Phaser config mounts to: parent: 'game'
+
+      Option B — embed via iframe (if hosted separately):
+        Replace #game's contents with:
+        <iframe src="https://your-game-host" style="width:100%;height:100%;border:0"></iframe>
+
+      Option C — full standalone (current dev path):
+        Build with `vite build`, copy /dist contents to /game/,
+        then uncomment the script tag below.
+    -->
+
+    <!-- <script type="module" src="game/assets/index.js"></script> -->
+
+  </div>
+</main>
+
+<div class="footer-hint">PRESS [ESC] TO PAUSE · BLOCKZILLA RUNNER © 2026</div>
+
+<script>
+  // Hide splash after a beat (replace this with your game's "ready" event)
+  window.addEventListener('load', ()=>{
+    setTimeout(()=>{
+      const sp = document.getElementById('splash');
+      if(sp) sp.classList.add('hide');
+    }, 2400);
+  });
+
+  // Mobile gate: show on small touch devices unless dismissed
+  (function(){
+    const gate = document.getElementById('mobileGate');
+    const btn = document.getElementById('playAnyway');
+    const isSmall = window.matchMedia('(max-width: 880px)').matches;
+    const isTouch = matchMedia('(hover: none)').matches;
+    if((isSmall || isTouch) && !sessionStorage.getItem('blockzilla-gate-dismissed')){
+      gate.classList.add('show');
+    }
+    btn?.addEventListener('click', ()=>{
+      gate.classList.remove('show');
+      sessionStorage.setItem('blockzilla-gate-dismissed', '1');
+    });
+  })();
+
+  // ESC anywhere → back to index
+  // (Comment out if your game wants ESC for pause)
+  // document.addEventListener('keydown', (e)=>{
+  //   if(e.key === 'Escape') location.href = 'index.html';
+  // });
+</script>
+
+</body>
+</html>
