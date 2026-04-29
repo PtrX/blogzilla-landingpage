@@ -1761,10 +1761,17 @@
       <div class="section-kicker" style="color:#7eb6ff">// FOLGE 03 · IN VORBEREITUNG</div>
       <h2 class="section-title" style="margin:14px 0 16px">Etwas leuchtet noch.</h2>
       <p style="color:var(--ink-dim);max-width:48ch;margin:0 auto 28px;font-size:16px">Trag dich ein und erfahre als Erste*r, wenn Folge 03 kommt. Keine Werbung. Keine Spoiler. Nur ein leises Pulsieren in deinem Posteingang.</p>
-      <form onsubmit="event.preventDefault();this.querySelector('button').textContent='✓ Eingetragen';this.querySelector('input').value=''" style="display:flex;gap:10px;max-width:480px;margin:0 auto;flex-wrap:wrap;justify-content:center">
-        <input type="email" placeholder="deine@email.de" required style="flex:1;min-width:240px;padding:14px 18px;background:rgba(10,6,18,.6);border:2px solid var(--line-strong);color:var(--ink);font-family:inherit;font-size:14px;outline:none" />
+      <form id="episodeUpdatesForm" name="episode-updates" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/?episode=ok" style="display:flex;gap:10px;max-width:480px;margin:0 auto;flex-wrap:wrap;justify-content:center">
+        <input type="hidden" name="form-name" value="episode-updates" />
+        <p hidden><label>Nicht ausfüllen: <input name="bot-field" /></label></p>
+        <input type="email" name="email" placeholder="deine@email.de" required autocomplete="email" style="flex:1;min-width:240px;padding:14px 18px;background:rgba(10,6,18,.6);border:2px solid var(--line-strong);color:var(--ink);font-family:inherit;font-size:14px;outline:none" />
         <button type="submit" class="btn btn-primary" style="border:0">Benachrichtigen</button>
       </form>
+      <div class="merch-success" id="episodeUpdatesSuccess" hidden>
+        <span class="ok-mark">✓</span>
+        <strong>Du bist drin.</strong>
+        <span>Folge-03-Alarm aktiviert — wir melden uns, sobald es weitergeht.</span>
+      </div>
     </div>
   </div>
 </section>
@@ -2048,19 +2055,18 @@
     render();
   })();
 
-  // ===== newsletter form =====
-  (function(){
-    const form = document.getElementById('newsletterForm');
-    const success = document.getElementById('newsletterSuccess');
-    const cta = document.getElementById('newsletterCta');
+  // ===== Netlify forms =====
+  function setupNetlifyForm(formId, successId, queryKey, scrollTargetId){
+    const form = document.getElementById(formId);
+    const success = document.getElementById(successId);
+    const scrollTarget = document.getElementById(scrollTargetId) || form;
     if(!form || !success) return;
 
-    // Show success if redirected back with ?nl=ok
-    if(new URLSearchParams(location.search).get('nl') === 'ok'){
+    // Show success if redirected back after a Netlify submission.
+    if(new URLSearchParams(location.search).get(queryKey) === 'ok'){
       form.style.display = 'none';
       success.classList.add('show');
-      // Scroll to it after a beat
-      setTimeout(()=> cta && cta.scrollIntoView({behavior:'smooth',block:'center'}), 200);
+      setTimeout(()=> scrollTarget && scrollTarget.scrollIntoView({behavior:'smooth',block:'center'}), 200);
     }
 
     form.addEventListener('submit', async (e)=>{
@@ -2075,12 +2081,8 @@
         return;
       }
       // If we're on Netlify (production), let the form post natively
-      // and Netlify will redirect to /?nl=ok (action attribute).
+      // and Netlify will redirect using the action attribute.
       // For local dev / non-Netlify hosts, intercept and show inline success.
-      const isNetlify = location.hostname.endsWith('netlify.app') ||
-                        location.hostname.endsWith('netlify.com') ||
-                        document.querySelector('meta[name="x-netlify"]');
-      // Heuristic: if on file:// or localhost, fake the submit
       if(location.protocol === 'file:' || /^(localhost|127\.|192\.168\.|10\.)/.test(location.hostname)){
         e.preventDefault();
         form.style.display = 'none';
@@ -2088,7 +2090,9 @@
       }
       // Otherwise: native submit happens, Netlify catches it.
     });
-  })();
+  }
+  setupNetlifyForm('newsletterForm', 'newsletterSuccess', 'nl', 'newsletterCta');
+  setupNetlifyForm('episodeUpdatesForm', 'episodeUpdatesSuccess', 'episode', 'episodeUpdatesForm');
 </script>
 <script src="karaoke.js"></script>
 </body>
